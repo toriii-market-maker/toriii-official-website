@@ -1,0 +1,33 @@
+.header-text-default {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.header-text-default .frame {
+  align-items: center;
+  background-color: #000000;
+  border-radius: 17px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px;
+  position: relative;
+}
+
+.header-text-default .about-us {
+  color: #ffffff;
+  font-family: "Jersey 25", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.09px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

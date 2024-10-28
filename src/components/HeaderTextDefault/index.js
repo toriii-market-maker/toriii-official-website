@@ -1,0 +1,1 @@
+export { HeaderTextDefault } from "./HeaderTextDefault";

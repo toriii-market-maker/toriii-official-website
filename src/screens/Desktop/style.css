@@ -1,0 +1,579 @@
+.desktop {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-wrapper {
+  background-color: #000000;
+  height: 1024px;
+  width: 1440px;
+}
+
+.desktop .overlap {
+  height: 1024px;
+  position: relative;
+}
+
+.desktop .overlap-group-wrapper {
+  height: 1024px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.desktop .overlap-group {
+  height: 1046px;
+  left: -6px;
+  position: relative;
+  top: -16px;
+  width: 1453px;
+}
+
+.desktop .group {
+  height: 1046px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1453px;
+}
+
+.desktop .div {
+  height: 1035px;
+  position: relative;
+  top: 10px;
+}
+
+.desktop .rectangle {
+  height: 1024px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 1440px;
+}
+
+.desktop .vector {
+  height: 1020px;
+  left: 27px;
+  position: absolute;
+  top: 10px;
+  width: 1398px;
+}
+
+.desktop .ellipse {
+  border: 2.52px solid;
+  border-color: #000000;
+  border-radius: 13px;
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.desktop .ellipse-2 {
+  border: 2.52px solid;
+  border-color: #000000;
+  border-radius: 13px;
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 1009px;
+  width: 26px;
+}
+
+.desktop .ellipse-3 {
+  border: 2.52px solid;
+  border-color: #000000;
+  border-radius: 13px;
+  height: 26px;
+  left: 1427px;
+  position: absolute;
+  top: 1px;
+  width: 26px;
+}
+
+.desktop .ellipse-4 {
+  border: 2.52px solid;
+  border-color: #000000;
+  border-radius: 13px;
+  height: 26px;
+  left: 1425px;
+  position: absolute;
+  top: 1009px;
+  width: 26px;
+}
+
+.desktop .img {
+  height: 28px;
+  left: 619px;
+  position: absolute;
+  top: 6px;
+  width: 218px;
+}
+
+.desktop .div-wrapper {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #000000;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 45px;
+  position: absolute;
+  top: 996px;
+}
+
+.desktop .text-wrapper {
+  color: #000000;
+  font-family: "Jersey 25", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.10px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .frame-2 {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #000000;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 1235px;
+  position: absolute;
+  top: 996px;
+}
+
+.desktop .frame-3 {
+  height: 66px;
+  left: 49px;
+  position: absolute;
+  top: 35px;
+  width: 1355px;
+  position: relative; /* 确保父容器有定位 */
+}
+
+.desktop .logo-toriii-white {
+  height: 49px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 236px !important;
+}
+
+.desktop .frame-4 {
+  display: inline-flex; /* 使子元素在同一行显示 */
+  align-items: center;
+  background-color: #2c355d; /* 背景色 */
+  border-radius: 16px;
+  gap: 16px;
+  padding: 8px;
+  position: absolute; /* 确保位置不变 */
+  right: 0; /* 根据需要调整位置 */
+  top: 0; /* 根据需要调整位置 */
+}
+
+.desktop .header-text-default-instance {
+  flex: 0 0 auto !important;
+}
+
+.desktop .frame-5 {
+  height: 755px;
+  left: 78px;
+  position: absolute;
+  top: 162px;
+  width: 1282px;
+}
+
+.desktop .overlap-2 {
+  height: 429px;
+  left: 633px;
+  position: absolute;
+  top: 150px;
+  width: 629px;
+}
+
+.desktop .frame-wrapper {
+  align-items: center;
+  background-color: #000000b2;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 72px 55.02px;
+  justify-content: center;
+  left: 12px;
+  padding: 54px 19px;
+  position: absolute;
+  top: 20px;
+}
+
+.desktop .frame-6 {
+  height: 283.41px;
+  position: relative;
+  width: 559.06px;
+}
+
+.desktop .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  gap: 55.02px;
+  justify-content: center;
+  left: 34px;
+  position: absolute;
+  top: 0;
+}
+
+.desktop .logo-binance-white {
+  height: 46.47px !important;
+  position: relative !important;
+  width: 232.35px !important;
+}
+
+.desktop .logo-gateio-white {
+  height: 46.47px !important;
+  position: relative !important;
+  width: 202.92px !important;
+}
+
+.desktop .frame-8 {
+  align-items: center;
+  display: inline-flex;
+  gap: 55.02px;
+  justify-content: center;
+  left: 55px;
+  position: absolute;
+  top: 118px;
+}
+
+.desktop .logo-max-white {
+  height: 46.47px;
+  position: relative;
+  width: 217.46px;
+}
+
+.desktop .logo-bitmex-white {
+  height: 29.37px !important;
+  position: relative !important;
+  width: 175.87px !important;
+}
+
+.desktop .frame-9 {
+  align-items: center;
+  display: inline-flex;
+  gap: 35px;
+  justify-content: center;
+  left: 9px;
+  position: absolute;
+  top: 237px;
+}
+
+.desktop .logo-ace-white {
+  height: 46.53px !important;
+  position: relative !important;
+  width: 137.47px !important;
+}
+
+.desktop .logo-woox-white {
+  height: 29.37px !important;
+  position: relative !important;
+  width: 139.2px !important;
+}
+
+.desktop .logo-bitopro-white {
+  height: 46.53px !important;
+  margin-right: -0.01px !important;
+  position: relative !important;
+  width: 196.19px !important;
+}
+
+.desktop .group-2 {
+  height: 429px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 629px;
+}
+
+.desktop .frame-10 {
+  height: 106px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 283px;
+}
+
+.desktop .liquidity-providing {
+  height: 170px;
+  left: 4px;
+  position: absolute;
+  top: 239px;
+  width: 550px;
+}
+
+.desktop .frame-11 {
+  align-items: center;
+  display: inline-flex;
+  gap: 13.36px;
+  height: 47px;
+  justify-content: center;
+  left: 876px;
+  position: absolute;
+  top: 701px;
+}
+
+.desktop .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Libre Barcode 128 Text", Helvetica;
+  font-size: 53.5px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -1.78px;
+  margin-top: -4.45px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.desktop .p {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 9.5px;
+  font-weight: 400;
+  height: 56px;
+  left: 876px;
+  letter-spacing: 0.05px;
+  line-height: 14.2px;
+  position: absolute;
+  text-align: justify;
+  top: 618px;
+  width: 406px;
+}
+
+.desktop .overlap-3 {
+  height: 304px;
+  left: 0;
+  position: absolute;
+  top: 451px;
+  width: 594px;
+}
+
+.desktop .overlap-4 {
+  height: 304px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 594px;
+}
+
+.desktop .vector-2 {
+  height: 114px;
+  left: 0;
+  position: absolute;
+  top: 165px;
+  width: 578px;
+}
+
+.desktop .group-3 {
+  height: 253px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.desktop .vector-3 {
+  height: 106px;
+  left: 170px;
+  position: absolute;
+  top: 198px;
+  width: 424px;
+}
+
+.desktop .vector-4 {
+  height: 12px;
+  left: 385px;
+  position: absolute;
+  top: 198px;
+  width: 204px;
+}
+
+.desktop .frame-12 {
+  height: 40px;
+  left: 165px;
+  position: absolute;
+  top: 107px;
+  width: 404px;
+}
+
+.desktop .element {
+  height: 80px;
+  left: 139px;
+  position: absolute;
+  top: 0;
+  width: 435px;
+}
+
+.desktop .overlap-5 {
+  height: 106px;
+  left: 318px;
+  position: absolute;
+  top: 0;
+  width: 945px;
+}
+
+.desktop .group-4 {
+  height: 106px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 945px;
+}
+
+.desktop .overlap-group-2 {
+  background-image: url(https://c.animaapp.com/L4C2IuQs/img/vector-14.svg);
+  background-size: 100% 100%;
+  height: 108px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 947px;
+}
+
+.desktop .RL {
+  height: 12px;
+  left: 19px;
+  position: absolute;
+  top: 10px;
+  width: 22px;
+}
+
+.desktop .ellipse-5 {
+  background-color: var(--variable-collection-secondary-green);
+  border-radius: 1.75px / 1.94px;
+  height: 4px;
+  left: 933px;
+  position: absolute;
+  top: 79px;
+  width: 4px;
+}
+
+.desktop .ellipse-6 {
+  background-color: var(--variable-collection-secondary-green);
+  border-radius: 1.75px / 1.94px;
+  height: 4px;
+  left: 924px;
+  position: absolute;
+  top: 88px;
+  width: 4px;
+}
+
+.desktop .ellipse-7 {
+  background-color: var(--variable-collection-secondary-green);
+  border-radius: 1.75px / 1.94px;
+  height: 4px;
+  left: 914px;
+  position: absolute;
+  top: 88px;
+  width: 4px;
+}
+
+.desktop .ellipse-8 {
+  background-color: var(--variable-collection-secondary-green);
+  border-radius: 1.75px / 1.94px;
+  height: 4px;
+  left: 931px;
+  position: absolute;
+  top: 69px;
+  width: 4px;
+}
+
+.desktop .ellipse-9 {
+  background-color: var(--variable-collection-secondary-green);
+  border-radius: 1.75px / 1.94px;
+  height: 4px;
+  left: 922px;
+  position: absolute;
+  top: 79px;
+  width: 4px;
+}
+
+.desktop .vector-5 {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 46px;
+  width: 461px;
+}
+
+.desktop .path {
+  height: 127px;
+  left: 679px;
+  position: absolute;
+  top: 624px;
+  width: 135px;
+}
+
+.desktop .frame-13 {
+  align-items: center;
+  display: inline-flex;
+  gap: 28px;
+  left: 5px;
+  position: absolute;
+  top: 170px;
+}
+
+.desktop .rectangle-2 {
+  background: linear-gradient(90deg, var(--variable-collection-secondary-green) 0%, #000000 100%);
+  border: 2.1px solid;
+  border-color: #ffffff;
+  border-radius: 31.44px;
+  height: 16px;
+  position: relative;
+  transform: rotate(-180.00deg);
+  width: 130px;
+}
+
+.desktop .ellipse-10 {
+  background-color: #000000;
+  border: 2.1px solid;
+  border-color: #ffffff;
+  border-radius: 8px;
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.header-button {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: "Jersey 25", Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 86px;
+  height: 50px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box; /* 包括内边距和边框 */
+}
