@@ -8,6 +8,8 @@ export default {
 export const Default = {
   args: {
     className: {},
+    frameClassName: {},
+    divClassName: {},
     text: "About Us",
   },
 };

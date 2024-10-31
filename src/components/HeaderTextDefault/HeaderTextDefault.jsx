@@ -7,16 +7,23 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const HeaderTextDefault = ({ className, text = "About Us" }) => {
+export const HeaderTextDefault = ({
+  className,
+  frameClassName,
+  divClassName,
+  text = "About Us",
+  targetId,
+}) => {
   return (
-    <div className={`header-text-default ${className}`}>
-      <div className="frame">
-        <div className="about-us">{text}</div>
+    <a href={`#${targetId}`} className={`header-text-default ${className}`}>
+      <div className={`frame ${frameClassName}`}>
+        <div className={`about-us ${divClassName}`}>{text}</div>
       </div>
-    </div>
+    </a>
   );
 };
 
 HeaderTextDefault.propTypes = {
   text: PropTypes.string,
+  targetId: PropTypes.string.isRequired,
 };

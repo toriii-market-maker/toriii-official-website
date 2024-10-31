@@ -1,0 +1,1893 @@
+.element {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(1, 0, 140) 100%);
+  background-color: rgba(255, 255, 255, 1.0);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.element .header {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.element .header-placeholder {
+  height: 80px; 
+}
+
+.element .logo {
+  position: relative;
+}
+
+.element .logo-toriii-white-4-1 {
+  height: 28px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 135px !important;
+}
+
+.element .list {
+  position: relative;
+}
+
+.element .menu {
+  align-items: center;
+  background-color: #2c355d;
+  display: inline-flex;
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.element .class {
+  border-radius: 14.57px !important;
+  gap: 8.57px !important;
+  padding: 13.71px !important;
+}
+
+.element .class-2 {
+  flex: 0 0 auto !important;
+  gap: 8.57px !important;
+}
+
+.element .class-3 {
+  flex: 0 0 auto !important;
+}
+
+.element .class-4 {
+  font-size: 15.4px !important;
+  letter-spacing: 0.08px !important;
+  margin-top: -0.86px !important;
+}
+
+.element .content {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.element .page-about-us {
+  position: relative;
+}
+
+.element .overlap {
+  position: absolute;
+}
+
+.element .overlap-group {
+  position: absolute;
+}
+
+.element .div {
+  left: 0;
+  position: absolute;
+}
+
+.element .toriii-name {
+  left: 0;
+  position: absolute;
+}
+
+.element .text-wrapper {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0.02px;
+  position: absolute;
+  text-align: justify;
+  transform: rotate(-90.00deg);
+}
+
+.element .group {
+  position: absolute;
+}
+
+.element .overlap-group-wrapper {
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.element .img-wrapper {
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.element .img {
+  position: absolute;
+}
+
+.element .img-2 {
+  position: absolute;
+}
+
+.element .group-2 {
+  position: absolute;
+  top: 0;
+}
+
+.element .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Libre Barcode 128 Text", Helvetica;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.element .p {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .battery {
+  position: absolute;
+}
+
+.element .group-3 {
+  position: absolute;
+}
+
+.element .overlap-2 {
+  position: absolute;
+}
+
+.element .toriii-name-2 {
+  position: absolute;
+}
+
+.element .text-wrapper-3 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  left: 0;
+  position: absolute;
+  text-align: justify;
+  top: 0;
+}
+
+.element .group-4 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: absolute;
+}
+
+.element .crypto-ASSETS {
+  position: absolute;
+}
+
+.element .frame-wrapper {
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.element .frame-2 {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.element .frame-3 {
+  position: relative;
+}
+
+.element .tether-usdt-seeklogo {
+  position: relative;
+}
+
+.element .group-wrapper {
+  border-color: #000000;
+  position: relative;
+}
+
+.element .group-5 {
+  position: absolute;
+  top: 1px;
+}
+
+.element .liquidity {
+  position: absolute;
+}
+
+.element .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+}
+
+.element .rectangle {
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background-color: var(--variable-collection-secondary-green);
+  border-color: #ffffff;
+  position: relative;
+  transform: rotate(-180.00deg);
+}
+
+.element .ellipse {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-2 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-3 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-4 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-5 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-6 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-7 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .rectangle-2 {
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background-color: var(--variable-collection-secondary-green);
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .overlap-3 {
+  position: absolute;
+}
+
+.element .vector {
+  position: absolute;
+  top: 0;
+}
+
+.element .text-wrapper-4 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  left: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.element .vector-2 {
+  position: absolute;
+}
+
+.element .vector-3 {
+  position: absolute;
+}
+
+.element .ellipse-8 {
+  background-color: var(--variable-collection-text-secondary);
+  position: absolute;
+}
+
+.element .ellipse-9 {
+  position: absolute;
+}
+
+.element .ellipse-10 {
+  position: absolute;
+}
+
+.element .ellipse-11 {
+  position: absolute;
+}
+
+.element .ellipse-12 {
+  position: absolute;
+}
+
+.element .ellipse-13 {
+  position: absolute;
+}
+
+.element .ellipse-14 {
+  position: absolute;
+}
+
+.element .ellipse-15 {
+  position: absolute;
+}
+
+.element .ellipse-16 {
+  position: absolute;
+}
+
+.element .ellipse-17 {
+  position: absolute;
+}
+
+.element .ellipse-18 {
+  position: absolute;
+}
+
+.element .group-6 {
+  position: relative;
+}
+
+.element .overlap-4 {
+  position: absolute;
+}
+
+.element .div-wrapper {
+  position: absolute;
+}
+
+.element .overlap-group-2 {
+  position: relative;
+}
+
+.element .vector-4 {
+  position: absolute;
+}
+
+.element .group-7 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .line {
+  height: 1px;
+  position: absolute;
+}
+
+.element .line-2 {
+  position: absolute;
+  width: 1px;
+}
+
+.element .frame-5 {
+  position: absolute;
+}
+
+.element .frame-6 {
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+}
+
+.element .ellipse-19 {
+  background-color: var(--variable-collection-text-secondary);
+  position: relative;
+}
+
+.element .ellipse-20 {
+  position: relative;
+}
+
+.element .ellipse-21 {
+  position: relative;
+}
+
+.element .ellipse-22 {
+  position: relative;
+}
+
+.element .ellipse-23 {
+  position: relative;
+}
+
+.element .ellipse-24 {
+  position: relative;
+}
+
+.element .ellipse-25 {
+  position: relative;
+}
+
+.element .ellipse-26 {
+  position: relative;
+}
+
+.element .ellipse-27 {
+  position: relative;
+}
+
+.element .ellipse-28 {
+  position: relative;
+}
+
+.element .ellipse-29 {
+  position: relative;
+}
+
+.element .text-wrapper-5 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+}
+
+.element .text-wrapper-6 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  text-align: justify;
+  transform: rotate(-90.00deg);
+}
+
+.element .battery-2 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Libre Barcode 128 Text", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.element .group-8 {
+  position: absolute;
+}
+
+.element .group-9 {
+  position: absolute;
+  top: 0;
+}
+
+.element .toriii-name-3 {
+  position: absolute;
+}
+
+.element .text-wrapper-8 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .text-wrapper-9 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .overlap-wrapper {
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.element .overlap-5 {
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.element .img-3 {
+  position: absolute;
+}
+
+.element .group-10 {
+  background-color: #1f1f1f;
+  border-color: #ffffff;
+  position: absolute;
+}
+
+.element .crypto-ASSETS-2 {
+  position: absolute;
+}
+
+.element .overlap-6 {
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.element .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.element .frame-8 {
+  position: relative;
+}
+
+.element .tether-usdt-seeklogo-2 {
+  position: relative;
+}
+
+.element .frame-9 {
+  border-color: #000000;
+  position: relative;
+}
+
+.element .group-11 {
+  position: absolute;
+}
+
+.element .liquidity-2 {
+  position: absolute;
+}
+
+.element .frame-10 {
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+}
+
+.element .rectangle-3 {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background-color: var(--variable-collection-secondary-green);
+  border-color: #ffffff;
+  position: relative;
+  transform: rotate(-180.00deg);
+}
+
+.element .ellipse-30 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-31 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-32 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-33 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-34 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-35 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .rectangle-4 {
+  background: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background-color: var(--variable-collection-secondary-green);
+  border: 10px solid #ffffff;
+  position: relative;
+}
+
+.element .img-4 {
+  position: absolute;
+}
+
+.element .group-12 {
+  position: absolute;
+}
+
+.element .page-service {
+  position: relative;
+}
+
+.element .frame-11 {
+  position: absolute;
+}
+
+.element .frame-12 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.element .frame-13 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.element .frame-14 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.element .text-wrapper-10 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .text-wrapper-11 {
+  align-self: stretch;
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.06px;
+  line-height: 18px;
+  position: relative;
+  text-align: justify;
+}
+
+.element .frame-15 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.element .frame-16 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.element .text-wrapper-12 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .frame-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.element .frame-18 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.element .text-wrapper-13 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .text-wrapper-14 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 90px;
+  left: 0;
+  letter-spacing: 0.06px;
+  line-height: 17.9px;
+  position: absolute;
+  text-align: justify;
+  top: 31px;
+  width: 389px;
+}
+
+.element .text-wrapper-15 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 90px;
+  left: 1px;
+  letter-spacing: 0.06px;
+  line-height: 17.9px;
+  position: absolute;
+  text-align: justify;
+  top: 194px;
+  width: 389px;
+}
+
+.element .text-wrapper-16 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 90px;
+  left: 1px;
+  letter-spacing: 0.06px;
+  line-height: 17.9px;
+  position: absolute;
+  text-align: justify;
+  top: 357px;
+  width: 389px;
+}
+
+.element .frame-19 {
+  align-items: center;
+  display: inline-flex;
+  gap: 5.98px;
+  justify-content: center;
+  left: 1px;
+  padding: 2.39px 0px;
+  position: absolute;
+  top: 0;
+}
+
+.element .text-wrapper-17 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 21.5px;
+  font-weight: 400;
+  letter-spacing: 0.11px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .frame-20 {
+  align-items: center;
+  display: inline-flex;
+  gap: 5.98px;
+  justify-content: center;
+  left: 1px;
+  padding: 2.39px 0px;
+  position: absolute;
+  top: 167px;
+}
+
+.element .frame-21 {
+  align-items: center;
+  display: inline-flex;
+  gap: 5.98px;
+  justify-content: center;
+  left: 1px;
+  padding: 2.39px 0px;
+  position: absolute;
+  top: 328px;
+}
+
+.element .group-13 {
+  left: 0;
+  position: absolute;
+}
+
+.element .overlap-group-3 {
+  position: relative;
+}
+
+.element .class-5 {
+  height: 471px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 543px !important;
+}
+
+.element .class-6 {
+  height: 625px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 721px !important;
+}
+
+.element .logo-toriii-white-3-18 {
+  height: 863px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 995px !important;
+}
+
+.element .class-7 {
+  height: 471px !important;
+  left: 13px !important;
+  top: 8px !important;
+  width: 543px !important;
+}
+
+.element .class-8 {
+  height: 625px !important;
+  left: 17px !important;
+  top: 10px !important;
+  width: 721px !important;
+}
+
+.element .class-9 {
+  height: 863px !important;
+  left: 24px !important;
+  top: 14px !important;
+  width: 995px !important;
+}
+
+.element .logo-toriii-white-3-19 {
+  height: 939px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 1083px !important;
+}
+
+.element .logo-toriii-white-6 {
+  height: 939px !important;
+  left: 26px !important;
+  top: 15px !important;
+  width: 1083px !important;
+}
+
+.element .frame-22 {
+  position: absolute;
+}
+
+.element .group-14 {
+  position: absolute;
+  top: 0;
+}
+
+.element .logo-list {
+  position: absolute;
+}
+
+.element .instance-node {
+  align-self: stretch !important;
+  height: 51.21px !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.element .logo-toriii-white-2 {
+  align-self: stretch !important;
+  height: 56.47px !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.element .class-10 {
+  height: 69px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 186px !important;
+  width: 79px !important;
+}
+
+.element .logo-toriii-white-3 {
+  align-self: stretch !important;
+  height: 44.39px !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.element .class-11 {
+  height: 69px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 372px !important;
+  width: 79px !important;
+}
+
+.element .logo-toriii-white-3-15 {
+  height: 69px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 79px !important;
+}
+
+.element .logo-toriii-white-6-11 {
+  height: 69px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 93px !important;
+  width: 79px !important;
+}
+
+.element .logo-toriii-white-6-12 {
+  height: 69px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 279px !important;
+  width: 79px !important;
+}
+
+.element .frame-23 {
+  position: absolute;
+}
+
+.element .text-wrapper-18 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  left: 0;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .text-wrapper-19 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  left: 1px;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .text-wrapper-20 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  left: 1px;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .frame-24 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  left: 1px;
+  position: absolute;
+  top: 0;
+}
+
+.element .text-wrapper-21 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .frame-25 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  left: 1px;
+  position: absolute;
+}
+
+.element .text-wrapper-22 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .frame-26 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  left: 1px;
+  position: absolute;
+}
+
+.element .text-wrapper-23 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .group-15 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .page-liquidity {
+  position: relative;
+}
+
+.element .overlap-7 {
+  position: absolute;
+}
+
+.element .frame-27 {
+  align-items: center;
+  background-color: #000000b2;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .frame-28 {
+  position: relative;
+}
+
+.element .frame-29 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.element .logo-binance-white {
+  height: 23.28px !important;
+  position: relative !important;
+  width: 116.42px !important;
+}
+
+.element .logo-gateio-white {
+  height: 23.28px !important;
+  position: relative !important;
+  width: 101.67px !important;
+}
+
+.element .logo-binance-white-4 {
+  height: 30.92px !important;
+  position: relative !important;
+  width: 154.62px !important;
+}
+
+.element .logo-gateio-white-6 {
+  height: 30.92px !important;
+  position: relative !important;
+  width: 135.03px !important;
+}
+
+.element .logo-binance-white-7 {
+  height: 42.69px !important;
+  position: relative !important;
+  width: 213.47px !important;
+}
+
+.element .logo-gateio-white-7 {
+  height: 42.69px !important;
+  position: relative !important;
+  width: 186.43px !important;
+}
+
+.element .logo-binance-white-8 {
+  height: 46.47px !important;
+  position: relative !important;
+  width: 232.35px !important;
+}
+
+.element .logo-gateio-white-8 {
+  height: 46.47px !important;
+  position: relative !important;
+  width: 202.92px !important;
+}
+
+.element .frame-30 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .logo-max-white {
+  position: relative;
+}
+
+.element .logo-bitmex-white {
+  height: 14.72px !important;
+  position: relative !important;
+  width: 88.12px !important;
+}
+
+.element .logo-bitmex-white-6 {
+  height: 19.54px !important;
+  position: relative !important;
+  width: 117.03px !important;
+}
+
+.element .logo-bitmex-white-7 {
+  height: 26.98px !important;
+  position: relative !important;
+  width: 161.58px !important;
+}
+
+.element .logo-bitmex-white-8 {
+  height: 29.37px !important;
+  position: relative !important;
+  width: 175.87px !important;
+}
+
+.element .frame-31 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .logo-ace-white {
+  height: 23.32px !important;
+  position: relative !important;
+  width: 68.86px !important;
+}
+
+.element .logo-ace-white-4 {
+  height: 30.97px !important;
+  position: relative !important;
+  width: 91.46px !important;
+}
+
+.element .class-12 {
+  height: 14.72px !important;
+  position: relative !important;
+  width: 69.75px !important;
+}
+
+.element .class-13 {
+  height: 19.54px !important;
+  position: relative !important;
+  width: 92.63px !important;
+}
+
+.element .logo-bitopro-white {
+  height: 30.97px !important;
+  position: relative !important;
+  width: 130.55px !important;
+}
+
+.element .logo-ace-white-7 {
+  height: 42.75px !important;
+  position: relative !important;
+  width: 126.27px !important;
+}
+
+.element .logo-ace-white-8 {
+  height: 46.53px !important;
+  position: relative !important;
+  width: 137.44px !important;
+}
+
+.element .class-14 {
+  height: 29.37px !important;
+  position: relative !important;
+  width: 139.2px !important;
+}
+
+.element .class-15 {
+  height: 26.98px !important;
+  position: relative !important;
+  width: 127.89px !important;
+}
+
+.element .logo-bitopro-white-8 {
+  height: 46.53px !important;
+  position: relative !important;
+  width: 196.18px !important;
+}
+
+.element .class-16 {
+  height: 23.32px !important;
+  position: relative !important;
+  width: 98.29px !important;
+}
+
+.element .class-17 {
+  height: 42.75px !important;
+  position: relative !important;
+  width: 180.24px !important;
+}
+
+.element .group-16 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .frame-32 {
+  position: absolute;
+}
+
+.element .frame-33 {
+  position: absolute;
+  top: 1px;
+}
+
+.element .overlap-group-4 {
+  position: relative;
+}
+
+.element .group-17 {
+  background-size: 100% 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .RL {
+  position: absolute;
+}
+
+.element .ellipse-36 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-37 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-38 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-39 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-40 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .vector-5 {
+  left: 0;
+  position: absolute;
+}
+
+.element .frame-34 {
+  position: absolute;
+}
+
+.element .frame-35 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .text-wrapper-24 {
+  color: #ffffff;
+  font-family: "Libre Barcode 128 Text", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .text-wrapper-25 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  text-align: justify;
+  top: -1px;
+}
+
+.element .path {
+  left: 0;
+  position: absolute;
+}
+
+.element .frame-36 {
+  position: absolute;
+}
+
+.element .liquidity-providing {
+  position: absolute;
+}
+
+.element .overlap-8 {
+  left: 0;
+  position: absolute;
+}
+
+.element .overlap-9 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .vector-6 {
+  left: 0;
+  position: absolute;
+}
+
+.element .group-18 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .vector-7 {
+  position: absolute;
+}
+
+.element .vector-8 {
+  position: absolute;
+}
+
+.element .frame-37 {
+  position: absolute;
+}
+
+.element .img-5 {
+  position: absolute;
+  top: 0;
+}
+
+.element .frame-38 {
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+}
+
+.element .rectangle-5 {
+  position: relative;
+}
+
+.element .ellipse-41 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-42 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-43 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-44 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-45 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-46 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .rectangle-6 {
+  position: relative;
+}
+
+.element .frame-39 {
+  overflow: hidden;
+  position: absolute;
+}
+
+.element .overlap-group-5 {
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.element .polygon {
+  position: absolute;
+}
+
+.element .img-6 {
+  position: absolute;
+}
+
+.element .frame-40 {
+  position: absolute;
+  top: 0;
+}
+
+.element .overlap-10 {
+  position: relative;
+}
+
+.element .group-19 {
+  background-size: 100% 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .RL-2 {
+  position: absolute;
+}
+
+.element .ellipse-47 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-48 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-49 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-50 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .ellipse-51 {
+  background-color: var(--variable-collection-secondary-green);
+  position: absolute;
+}
+
+.element .vector-9 {
+  left: 0;
+  position: absolute;
+}
+
+.element .frame-41 {
+  position: absolute;
+}
+
+.element .frame-42 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .text-wrapper-26 {
+  color: #ffffff;
+  font-family: "Libre Barcode 128 Text", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .text-wrapper-27 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .path-2 {
+  position: absolute;
+}
+
+.element .frame-43 {
+  position: absolute;
+}
+
+.element .overlap-11 {
+  position: absolute;
+}
+
+.element .frame-44 {
+  align-items: center;
+  background-color: #000000b2;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .frame-45 {
+  position: relative;
+}
+
+.element .frame-46 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.element .logo-binance-white-1 {
+  height: 20.45px !important;
+  position: relative !important;
+  width: 102.26px !important;
+}
+
+.element .logo-gateio-white-1 {
+  height: 20.45px !important;
+  position: relative !important;
+  width: 89.3px !important;
+}
+
+.element .logo-binance-white-2 {
+  height: 23.63px !important;
+  position: relative !important;
+  width: 118.13px !important;
+}
+
+.element .logo-gateio-white-2 {
+  height: 23.63px !important;
+  position: relative !important;
+  width: 103.17px !important;
+}
+
+.element .logo-binance-white-3 {
+  height: 26.06px !important;
+  position: relative !important;
+  width: 130.28px !important;
+}
+
+.element .logo-gateio-white-3 {
+  height: 26.06px !important;
+  position: relative !important;
+  width: 113.77px !important;
+}
+
+.element .logo-binance-white-6 {
+  height: 31.69px !important;
+  position: relative !important;
+  width: 158.47px !important;
+}
+
+.element .logo-gateio-white-4 {
+  height: 31.69px !important;
+  position: relative !important;
+  width: 138.4px !important;
+}
+
+.element .frame-47 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .logo-max-white-2 {
+  position: relative;
+}
+
+.element .class-18 {
+  height: 12.93px !important;
+  position: relative !important;
+  width: 77.4px !important;
+}
+
+.element .class-19 {
+  height: 14.93px !important;
+  position: relative !important;
+  width: 89.42px !important;
+}
+
+.element .logo-bitmex-white-3 {
+  height: 16.47px !important;
+  position: relative !important;
+  width: 98.61px !important;
+}
+
+.element .logo-bitmex-white-4 {
+  height: 20.03px !important;
+  position: relative !important;
+  width: 119.95px !important;
+}
+
+.element .frame-48 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.element .logo-ace-white-1 {
+  height: 20.48px !important;
+  position: relative !important;
+  width: 60.49px !important;
+}
+
+.element .logo-ace-white-5 {
+  height: 23.66px !important;
+  position: relative !important;
+  width: 69.88px !important;
+}
+
+.element .class-20 {
+  height: 12.93px !important;
+  position: relative !important;
+  width: 61.26px !important;
+}
+
+.element .class-21 {
+  height: 14.93px !important;
+  position: relative !important;
+  width: 70.77px !important;
+}
+
+.element .logo-bitopro-white-2 {
+  height: 23.66px !important;
+  position: relative !important;
+  width: 99.74px !important;
+}
+
+.element .logo-ace-white-3 {
+  height: 26.09px !important;
+  position: relative !important;
+  width: 77.06px !important;
+}
+
+.element .logo-ace-white-6 {
+  height: 31.74px !important;
+  position: relative !important;
+  width: 93.74px !important;
+}
+
+.element .class-22 {
+  height: 20.03px !important;
+  position: relative !important;
+  width: 94.94px !important;
+}
+
+.element .class-23 {
+  height: 16.47px !important;
+  position: relative !important;
+  width: 78.05px !important;
+}
+
+.element .logo-bitopro-white-4 {
+  height: 31.74px !important;
+  position: relative !important;
+  width: 133.8px !important;
+}
+
+.element .logo-bitopro-white-1 {
+  height: 20.48px !important;
+  position: relative !important;
+  width: 86.34px !important;
+}
+
+.element .logo-bitopro-white-6 {
+  height: 26.09px !important;
+  position: relative !important;
+  width: 110px !important;
+}
+
+.element .group-20 {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element .footer {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 1259px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.element .footer-container {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.element .cc {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.element .text-wrapper-28 {
+  color: #000000;
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .email {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.element .email-icon {
+  position: relative;
+}
+
+.element .contact-toriii-tech {
+  background: transparent;
+  border: none;
+  color: #000000;
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .cc-2 {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #000000;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: -2.00px;
+  margin-left: -2.00px;
+  margin-top: -2.00px;
+  position: relative;
+}
+
+.element .text-wrapper-29 {
+  color: #000000;
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .stroke-design {
+  position: relative;
+}
+
+.element .cc-3 {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #000000;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: -2.00px;
+  margin-right: -2.00px;
+  margin-top: -2.00px;
+  position: relative;
+}
+
+.element .text-wrapper-30 {
+  color: #000000;
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
