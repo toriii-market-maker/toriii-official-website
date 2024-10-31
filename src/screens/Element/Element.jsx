@@ -170,7 +170,7 @@ export const Element = () => {
             <LogoToriiiWhite41 className="logo-toriii-white-4-1" />
           )}
         </div>
-
+{/* 
         {((screenWidth >= 375 && screenWidth < 414) ||
           (screenWidth >= 414 && screenWidth < 500) ||
           (screenWidth >= 500 && screenWidth < 768) ||
@@ -209,7 +209,7 @@ export const Element = () => {
                     : undefined
             }
           />
-        )}
+        )} */}
 
         {((screenWidth >= 1366 && screenWidth < 1920) ||
           screenWidth >= 1920 ||
@@ -10444,6 +10444,7 @@ export const Element = () => {
         </div>
       </div>
 
+      <div className="footer-container-placeholder"></div>
       <footer
         className="footer"
         style={{

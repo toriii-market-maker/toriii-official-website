@@ -1552,6 +1552,10 @@ a {
   position: relative;
 }
 
+.element .footer-container-placeholder {
+  height: 40px;
+}
+
 .element .cc {
   flex: none;
   justify-content: center;

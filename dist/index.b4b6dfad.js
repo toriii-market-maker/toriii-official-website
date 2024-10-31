@@ -27487,19 +27487,6 @@ const Element = ()=>{
                         lineNumber: 107,
                         columnNumber: 9
                     }, undefined),
-                    (screenWidth >= 375 && screenWidth < 414 || screenWidth >= 414 && screenWidth < 500 || screenWidth >= 500 && screenWidth < 768 || screenWidth < 375) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "list",
-                        style: {
-                            height: screenWidth < 375 ? "28px" : screenWidth >= 375 && screenWidth < 414 ? "30px" : screenWidth >= 414 && screenWidth < 500 || screenWidth >= 500 && screenWidth < 768 ? "36px" : undefined,
-                            width: screenWidth < 375 ? "28px" : screenWidth >= 375 && screenWidth < 414 ? "30px" : screenWidth >= 414 && screenWidth < 500 || screenWidth >= 500 && screenWidth < 768 ? "36px" : undefined
-                        },
-                        alt: "List",
-                        src: screenWidth < 375 ? "https://c.animaapp.com/N6qZcdUt/img/list.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/N6qZcdUt/img/list-1.svg" : screenWidth >= 414 && screenWidth < 500 || screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/N6qZcdUt/img/list-3.svg" : undefined
-                    }, void 0, false, {
-                        fileName: "src/screens/Element/Element.jsx",
-                        lineNumber: 178,
-                        columnNumber: 11
-                    }, undefined),
                     (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "menu",
                         style: {
@@ -31108,6 +31095,13 @@ const Element = ()=>{
                 lineNumber: 278,
                 columnNumber: 7
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "footer-container-placeholder"
+            }, void 0, false, {
+                fileName: "src/screens/Element/Element.jsx",
+                lineNumber: 10447,
+                columnNumber: 7
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 className: "footer",
                 style: {
@@ -31138,12 +31132,12 @@ const Element = ()=>{
                                         children: "\xa9 2024 Toriii Technology Corp."
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 10524,
+                                        lineNumber: 10525,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10515,
+                                    lineNumber: 10516,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31163,7 +31157,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/N6qZcdUt/img/email-icon.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/N6qZcdUt/img/email-icon-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/N6qZcdUt/img/email-icon-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/N6qZcdUt/img/email-icon-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 10568,
+                                            lineNumber: 10569,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31177,18 +31171,18 @@ const Element = ()=>{
                                                 children: "Email: contact@toriii.tech"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 10605,
+                                                lineNumber: 10606,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 10604,
+                                            lineNumber: 10605,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10551,
+                                    lineNumber: 10552,
                                     columnNumber: 15
                                 }, undefined)
                             ]
@@ -31206,12 +31200,12 @@ const Element = ()=>{
                                         children: "\xa9 2024 Toriii Technology Corp."
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 10641,
+                                        lineNumber: 10642,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10640,
+                                    lineNumber: 10641,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31224,7 +31218,7 @@ const Element = ()=>{
                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/N6qZcdUt/img/stroke-design.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/N6qZcdUt/img/stroke-design-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/N6qZcdUt/img/stroke-design-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/N6qZcdUt/img/stroke-design-3.svg" : undefined
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10666,
+                                    lineNumber: 10667,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31238,12 +31232,12 @@ const Element = ()=>{
                                         children: "Email: contact@toriii.tech"
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 10704,
+                                        lineNumber: 10705,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10703,
+                                    lineNumber: 10704,
                                     columnNumber: 15
                                 }, undefined)
                             ]
@@ -31251,12 +31245,12 @@ const Element = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Element/Element.jsx",
-                    lineNumber: 10459,
+                    lineNumber: 10460,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/screens/Element/Element.jsx",
-                lineNumber: 10447,
+                lineNumber: 10448,
                 columnNumber: 7
             }, undefined)
         ]
