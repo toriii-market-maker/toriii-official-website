@@ -1,5 +1,5 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
 @import "https://fonts.googleapis.com/css?family=Jersey+25:400|Libre+Barcode+128+Text:400";
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -35,7 +35,6 @@ a {
   align-items: center;
   gap: 10px;
   padding: 16px;
-  transition: background-color .5s;
   display: inline-flex;
   position: relative;
 }
@@ -51,17 +50,7 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
-  transition: color .5s;
   position: relative;
-}
-
-.header-text-default .frame:hover {
-  color: #000;
-  background-color: #b1e322;
-}
-
-.header-text-default .frame:hover .about-us {
-  color: #000;
 }
 
 .logo-toriii-white {
@@ -81,18 +70,13 @@ a {
 }
 
 .element .header {
-  z-index: 1000;
   background-color: #0000;
   flex: none;
   align-self: stretch;
   align-items: center;
   width: 100%;
   display: flex;
-  position: fixed;
-}
-
-.header-placeholder {
-  height: 80px;
+  position: relative;
 }
 
 .element .logo {
@@ -333,7 +317,7 @@ a {
 }
 
 .element .group-6 {
-  background-color: #363636;
+  background-color: #000;
   border-color: #fff;
   position: absolute;
 }
@@ -373,7 +357,7 @@ a {
 }
 
 .element .rectangle {
-  background: linear-gradient(-90deg, #000 0%, #b1e322 100%);
+  background: linear-gradient(#000 0%, #b1e322 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #fff;
   position: relative;
@@ -381,13 +365,13 @@ a {
 }
 
 .element .ellipse-12, .element .ellipse-13, .element .ellipse-14, .element .ellipse-15, .element .ellipse-16, .element .ellipse-17 {
-  background-color: #fff;
+  background-color: #000;
   border-color: #fff;
   position: relative;
 }
 
 .element .rectangle-2 {
-  background: linear-gradient(90deg, #000 0%, #b1e322 100%);
+  background: linear-gradient(#000 0%, #b1e322 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #fff;
   position: relative;
@@ -1345,7 +1329,7 @@ a {
 }
 
 .element .ellipse-41, .element .ellipse-42, .element .ellipse-43, .element .ellipse-44, .element .ellipse-45, .element .ellipse-46 {
-  background-color: #fff;
+  background-color: #000;
   border-color: #fff;
   position: relative;
 }
@@ -1628,10 +1612,6 @@ a {
   width: 100%;
   display: flex;
   position: relative;
-}
-
-.footer-placeholder {
-  height: 60px;
 }
 
 .element .footer-container {
