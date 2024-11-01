@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import { useWindowWidth } from "../../breakpoints";
 import { HeaderTextDefault } from "../../components/HeaderTextDefault";
 import { LogoToriiiWhite } from "../../components/LogoToriiiWhite";
@@ -45,6 +45,27 @@ import "./style.css";
 
 export const Element = () => {
   const screenWidth = useWindowWidth();
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [headerVisible, setHeaderVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    if (currentScrollY > lastScrollY) {
+      // 向下滚动
+      setHeaderVisible(false);
+    } else {
+      // 向上滚动
+      setHeaderVisible(true);
+    }
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
 
   return (
     <div
@@ -100,8 +121,9 @@ export const Element = () => {
             : undefined,
       }}
     >
+      <div className="header-placeholder" />
       <header
-        className="header"
+        className={`header ${headerVisible ? "" : "header-hidden"}`}
         style={{
           gap:
             (screenWidth >= 375 && screenWidth < 414) ||
@@ -258,6 +280,7 @@ export const Element = () => {
               }}
             >
               <HeaderTextDefault
+                targetId="about-us-section"
                 className={`${screenWidth >= 768 && screenWidth < 992 && "class"} ${((screenWidth >= 1366 && screenWidth < 1920) || screenWidth >= 1920 || (screenWidth >= 992 && screenWidth < 1366)) && "class-2"}`}
                 divClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-4"}`}
                 frameClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-3"}`}
@@ -268,18 +291,23 @@ export const Element = () => {
                     ? "About Us"
                     : undefined
                 }
+                onClick={() => scrollToSection("about-us-section")}
               />
               <HeaderTextDefault
+                targetId="service-section"
                 className={`${screenWidth >= 768 && screenWidth < 992 && "class"} ${((screenWidth >= 1366 && screenWidth < 1920) || screenWidth >= 1920 || (screenWidth >= 992 && screenWidth < 1366)) && "class-2"}`}
                 divClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-4"}`}
                 frameClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-3"}`}
                 text="Service"
+                onClick={() => scrollToSection("service-section")}
               />
               <HeaderTextDefault
+                targetId="liquidity-section"
                 className={`${screenWidth >= 768 && screenWidth < 992 && "class"} ${((screenWidth >= 1366 && screenWidth < 1920) || screenWidth >= 1920 || (screenWidth >= 992 && screenWidth < 1366)) && "class-2"}`}
                 divClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-4"}`}
                 frameClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-3"}`}
                 text="Liquidity"
+                onClick={() => scrollToSection("liquidity-section")}
               />
             </div>
           </>
@@ -338,6 +366,7 @@ export const Element = () => {
         }}
       >
         <div
+          id="about-us-section"
           className="page-about-us"
           style={{
             alignSelf:
@@ -5670,6 +5699,7 @@ export const Element = () => {
         </div>
 
         <div
+          id="service-section"
           className="page-service"
           style={{
             alignItems:
@@ -6813,6 +6843,7 @@ export const Element = () => {
         </div>
 
         <div
+          id="liquidity-section"
           className="page-liquidity"
           style={{
             alignSelf:
@@ -10285,7 +10316,7 @@ export const Element = () => {
           </div>
         </div>
       </div>
-
+      <div className="footer-placeholder" />
       <footer
         className="footer"
         style={{
@@ -10443,8 +10474,8 @@ export const Element = () => {
                   }
                 />
 
-                <input
-                  className="contact-toriii-tech"
+                <div
+                  className="text-wrapper-30"
                   style={{
                     fontSize:
                       screenWidth < 375
@@ -10465,9 +10496,9 @@ export const Element = () => {
                             ? "0.07px"
                             : undefined,
                   }}
-                  placeholder="contact@toriii.tech"
-                  type="email"
-                />
+                >
+                  contact@toriii.tech
+                </div>
               </div>
             </>
           )}

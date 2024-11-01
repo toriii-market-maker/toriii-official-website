@@ -35,6 +35,7 @@ a {
   align-items: center;
   gap: 10px;
   padding: 16px;
+  transition: background-color .5s;
   display: inline-flex;
   position: relative;
 }
@@ -50,7 +51,17 @@ a {
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
+  transition: color .5s;
   position: relative;
+}
+
+.header-text-default .frame:hover {
+  color: #000;
+  background-color: #b1e322;
+}
+
+.header-text-default .frame:hover .about-us {
+  color: #000;
 }
 
 .logo-toriii-white {
@@ -70,13 +81,24 @@ a {
 }
 
 .element .header {
-  background-color: #0000;
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  background-color: #0000004d;
   flex: none;
   align-self: stretch;
   align-items: center;
   width: 100%;
+  transition: transform .3s;
   display: flex;
-  position: relative;
+  position: fixed;
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+}
+
+.element .header-placeholder {
+  height: 80px;
 }
 
 .element .logo {
@@ -317,7 +339,7 @@ a {
 }
 
 .element .group-6 {
-  background-color: #000;
+  background-color: #292929;
   border-color: #fff;
   position: absolute;
 }
@@ -357,7 +379,7 @@ a {
 }
 
 .element .rectangle {
-  background: linear-gradient(#000 0%, #b1e322 100%);
+  background: linear-gradient(90deg, #000 0%, #b1e322 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #fff;
   position: relative;
@@ -365,13 +387,13 @@ a {
 }
 
 .element .ellipse-12, .element .ellipse-13, .element .ellipse-14, .element .ellipse-15, .element .ellipse-16, .element .ellipse-17 {
-  background-color: #000;
+  background-color: #fff;
   border-color: #fff;
   position: relative;
 }
 
 .element .rectangle-2 {
-  background: linear-gradient(#000 0%, #b1e322 100%);
+  background: linear-gradient(-90deg, #000 0%, #b1e322 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #fff;
   position: relative;
@@ -1328,8 +1350,14 @@ a {
   position: relative;
 }
 
-.element .ellipse-41, .element .ellipse-42, .element .ellipse-43, .element .ellipse-44, .element .ellipse-45, .element .ellipse-46 {
+.element .ellipse-41, .element .ellipse-42 {
   background-color: #000;
+  border-color: #fff;
+  position: relative;
+}
+
+.element .ellipse-43, .element .ellipse-44, .element .ellipse-45, .element .ellipse-46 {
+  background-color: #fff;
   border-color: #fff;
   position: relative;
 }
@@ -1621,6 +1649,10 @@ a {
   align-items: center;
   display: flex;
   position: relative;
+}
+
+.element .footer-placeholder {
+  height: 20px;
 }
 
 .element .cc {

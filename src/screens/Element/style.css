@@ -10,11 +10,22 @@
 .element .header {
   align-items: center;
   align-self: stretch;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
   display: flex;
   flex: 0 0 auto;
-  position: relative;
+  position: fixed;
+  z-index: 1000;
   width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+}
+
+.element .header-placeholder {
+  height: 80px;
 }
 
 .element .logo {
@@ -313,7 +324,7 @@
 }
 
 .element .group-6 {
-  background-color: #000000;
+  background-color: #292929;
   border-color: #ffffff;
   position: absolute;
 }
@@ -361,7 +372,7 @@
 }
 
 .element .rectangle {
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #ffffff;
   position: relative;
@@ -369,43 +380,43 @@
 }
 
 .element .ellipse-12 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-13 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-14 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-15 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-16 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-17 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .rectangle-2 {
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #ffffff;
   position: relative;
@@ -1504,25 +1515,25 @@
 }
 
 .element .ellipse-43 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-44 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-45 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-46 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
@@ -1852,6 +1863,10 @@
   flex: 1;
   flex-grow: 1;
   position: relative;
+}
+
+.element .footer-placeholder {
+  height: 20px;
 }
 
 .element .cc {
