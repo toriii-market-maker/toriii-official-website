@@ -12,18 +12,16 @@ export const HeaderTextDefault = ({
   frameClassName,
   divClassName,
   text = "About Us",
-  targetId,
 }) => {
   return (
-    <a href={`#${targetId}`} className={`header-text-default ${className}`}>
+    <div className={`header-text-default ${className}`}>
       <div className={`frame ${frameClassName}`}>
         <div className={`about-us ${divClassName}`}>{text}</div>
       </div>
-    </a>
+    </div>
   );
 };
 
 HeaderTextDefault.propTypes = {
   text: PropTypes.string,
-  targetId: PropTypes.string.isRequired,
 };

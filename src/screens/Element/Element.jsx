@@ -100,7 +100,6 @@ export const Element = () => {
             : undefined,
       }}
     >
-      <div className="header-placeholder"></div>
       <header
         className="header"
         style={{
@@ -259,7 +258,6 @@ export const Element = () => {
               }}
             >
               <HeaderTextDefault
-                targetId="about-us-section"
                 className={`${screenWidth >= 768 && screenWidth < 992 && "class"} ${((screenWidth >= 1366 && screenWidth < 1920) || screenWidth >= 1920 || (screenWidth >= 992 && screenWidth < 1366)) && "class-2"}`}
                 divClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-4"}`}
                 frameClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-3"}`}
@@ -270,23 +268,18 @@ export const Element = () => {
                     ? "About Us"
                     : undefined
                 }
-                onClick={() => scrollToSection("about-us-section")}
               />
               <HeaderTextDefault
-                targetId="service-section"
                 className={`${screenWidth >= 768 && screenWidth < 992 && "class"} ${((screenWidth >= 1366 && screenWidth < 1920) || screenWidth >= 1920 || (screenWidth >= 992 && screenWidth < 1366)) && "class-2"}`}
                 divClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-4"}`}
                 frameClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-3"}`}
                 text="Service"
-                onClick={() => scrollToSection("service-section")}
               />
               <HeaderTextDefault
-                targetId="liquidity-section"
                 className={`${screenWidth >= 768 && screenWidth < 992 && "class"} ${((screenWidth >= 1366 && screenWidth < 1920) || screenWidth >= 1920 || (screenWidth >= 992 && screenWidth < 1366)) && "class-2"}`}
                 divClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-4"}`}
                 frameClassName={`${screenWidth >= 768 && screenWidth < 992 && "class-3"}`}
                 text="Liquidity"
-                onClick={() => scrollToSection("liquidity-section")}
               />
             </div>
           </>
@@ -345,7 +338,6 @@ export const Element = () => {
         }}
       >
         <div
-          id="about-us-section"
           className="page-about-us"
           style={{
             alignSelf:
@@ -5678,7 +5670,6 @@ export const Element = () => {
         </div>
 
         <div
-          id="service-section"
           className="page-service"
           style={{
             alignItems:
@@ -6822,7 +6813,6 @@ export const Element = () => {
         </div>
 
         <div
-          id="liquidity-section"
           className="page-liquidity"
           style={{
             alignSelf:
@@ -10296,8 +10286,6 @@ export const Element = () => {
         </div>
       </div>
 
-      <div className="footer-placeholder"></div>
-
       <footer
         className="footer"
         style={{
@@ -10455,8 +10443,8 @@ export const Element = () => {
                   }
                 />
 
-                <p
-                  className="text-wrapper-30"
+                <input
+                  className="contact-toriii-tech"
                   style={{
                     fontSize:
                       screenWidth < 375
@@ -10477,9 +10465,9 @@ export const Element = () => {
                             ? "0.07px"
                             : undefined,
                   }}
-                >
-                  contact@toriii.tech
-                </p>
+                  placeholder="contact@toriii.tech"
+                  type="email"
+                />
               </div>
             </>
           )}
