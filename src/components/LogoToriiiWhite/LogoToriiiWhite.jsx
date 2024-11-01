@@ -9,7 +9,7 @@ import "./style.css";
 
 export const LogoToriiiWhite = ({
   className,
-  logoToriiiWhite = "https://c.animaapp.com/N6qZcdUt/img/logo-toriii-white-6.png",
+  logoToriiiWhite = "https://c.animaapp.com/hycCuBbS/img/logo-toriii-white-6.png",
 }) => {
   return (
     <img

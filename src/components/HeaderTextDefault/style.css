@@ -16,6 +16,7 @@
   justify-content: center;
   padding: 16px;
   position: relative;
+  transition: background-color 0.5s ease;
 }
 
 .header-text-default .about-us {
@@ -30,4 +31,14 @@
   text-align: center;
   white-space: nowrap;
   width: fit-content;
+  transition: color 0.5s ease;
+}
+
+.header-text-default .frame:hover {
+  background-color: rgb(177, 227, 34);
+  color: #000000;
+}
+
+.header-text-default .frame:hover .about-us {
+  color: #000000;
 }

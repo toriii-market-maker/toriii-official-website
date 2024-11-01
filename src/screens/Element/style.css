@@ -1,5 +1,4 @@
 .element {
-  align-items: flex-start;
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(1, 0, 140) 100%);
   background-color: rgba(255, 255, 255, 1.0);
   display: flex;
@@ -14,14 +13,13 @@
   background-color: transparent;
   display: flex;
   flex: 0 0 auto;
-  justify-content: space-between;
   position: fixed;
-  width: 100%;
   z-index: 1000;
+  width: 100%;
 }
 
-.element .header-placeholder {
-  height: 80px; 
+.header-placeholder {
+  height: 80px;
 }
 
 .element .logo {
@@ -36,8 +34,15 @@
   width: 135px !important;
 }
 
-.element .list {
+.element .div {
   position: relative;
+}
+
+.element .logo-toriii-white-4-8 {
+  align-self: stretch !important;
+  height: 48.97px !important;
+  position: relative !important;
+  width: 100% !important;
 }
 
 .element .menu {
@@ -50,18 +55,18 @@
 }
 
 .element .class {
-  border-radius: 14.57px !important;
+  flex: 0 0 auto !important;
   gap: 8.57px !important;
-  padding: 13.71px !important;
 }
 
 .element .class-2 {
   flex: 0 0 auto !important;
-  gap: 8.57px !important;
 }
 
 .element .class-3 {
-  flex: 0 0 auto !important;
+  border-radius: 14.57px !important;
+  gap: 8.57px !important;
+  padding: 13.71px !important;
 }
 
 .element .class-4 {
@@ -72,16 +77,20 @@
 
 .element .content {
   align-items: center;
-  align-self: stretch;
-  display: flex;
   flex: 1;
   flex-direction: column;
   flex-grow: 1;
   position: relative;
-  width: 100%;
 }
 
 .element .page-about-us {
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.element .frame-2 {
   position: relative;
 }
 
@@ -93,7 +102,7 @@
   position: absolute;
 }
 
-.element .div {
+.element .overlap-2 {
   left: 0;
   position: absolute;
 }
@@ -140,251 +149,15 @@
   top: 0;
 }
 
-.element .text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Libre Barcode 128 Text", Helvetica;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-}
-
-.element .p {
-  color: var(--variable-collection-text-secondary-white);
-  font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
-  position: absolute;
-  text-align: justify;
-}
-
-.element .battery {
-  position: absolute;
-}
-
-.element .group-3 {
-  position: absolute;
-}
-
-.element .overlap-2 {
-  position: absolute;
-}
-
-.element .toriii-name-2 {
-  position: absolute;
-}
-
-.element .text-wrapper-3 {
-  color: var(--variable-collection-text-secondary-white);
-  font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
-  left: 0;
-  position: absolute;
-  text-align: justify;
-  top: 0;
-}
-
-.element .group-4 {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: absolute;
-}
-
-.element .crypto-ASSETS {
-  position: absolute;
-}
-
-.element .frame-wrapper {
-  background-color: #ffffff;
-  position: absolute;
-}
-
-.element .frame-2 {
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
-.element .frame-3 {
-  position: relative;
-}
-
-.element .tether-usdt-seeklogo {
-  position: relative;
-}
-
-.element .group-wrapper {
-  border-color: #000000;
-  position: relative;
-}
-
-.element .group-5 {
-  position: absolute;
-  top: 1px;
-}
-
-.element .liquidity {
-  position: absolute;
-}
-
-.element .frame-4 {
-  align-items: center;
-  display: inline-flex;
-  position: absolute;
-}
-
-.element .rectangle {
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
-  background-color: var(--variable-collection-secondary-green);
-  border-color: #ffffff;
-  position: relative;
-  transform: rotate(-180.00deg);
-}
-
-.element .ellipse {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .ellipse-2 {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .ellipse-3 {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .ellipse-4 {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .ellipse-5 {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .ellipse-6 {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .ellipse-7 {
-  background-color: #000000;
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .rectangle-2 {
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
-  background-color: var(--variable-collection-secondary-green);
-  border-color: #ffffff;
-  position: relative;
-}
-
-.element .overlap-3 {
-  position: absolute;
-}
-
-.element .vector {
-  position: absolute;
-  top: 0;
-}
-
-.element .text-wrapper-4 {
-  color: var(--variable-collection-text-secondary-white);
-  font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
-  left: 0;
-  position: absolute;
-  text-align: center;
-}
-
-.element .vector-2 {
-  position: absolute;
-}
-
-.element .vector-3 {
-  position: absolute;
-}
-
-.element .ellipse-8 {
-  background-color: var(--variable-collection-text-secondary);
-  position: absolute;
-}
-
-.element .ellipse-9 {
-  position: absolute;
-}
-
-.element .ellipse-10 {
-  position: absolute;
-}
-
-.element .ellipse-11 {
-  position: absolute;
-}
-
-.element .ellipse-12 {
-  position: absolute;
-}
-
-.element .ellipse-13 {
-  position: absolute;
-}
-
-.element .ellipse-14 {
-  position: absolute;
-}
-
-.element .ellipse-15 {
-  position: absolute;
-}
-
-.element .ellipse-16 {
-  position: absolute;
-}
-
-.element .ellipse-17 {
-  position: absolute;
-}
-
-.element .ellipse-18 {
-  position: absolute;
-}
-
-.element .group-6 {
-  position: relative;
-}
-
-.element .overlap-4 {
-  position: absolute;
-}
-
-.element .div-wrapper {
-  position: absolute;
-}
-
 .element .overlap-group-2 {
   position: relative;
 }
 
-.element .vector-4 {
+.element .vector {
   position: absolute;
 }
 
-.element .group-7 {
+.element .group-3 {
   left: 0;
   position: absolute;
   top: 0;
@@ -400,69 +173,69 @@
   width: 1px;
 }
 
-.element .frame-5 {
+.element .frame-3 {
   position: absolute;
 }
 
-.element .frame-6 {
+.element .frame-4 {
   align-items: center;
   display: inline-flex;
   position: absolute;
 }
 
-.element .ellipse-19 {
+.element .ellipse {
   background-color: var(--variable-collection-text-secondary);
   position: relative;
 }
 
-.element .ellipse-20 {
+.element .ellipse-2 {
   position: relative;
 }
 
-.element .ellipse-21 {
+.element .ellipse-3 {
   position: relative;
 }
 
-.element .ellipse-22 {
+.element .ellipse-4 {
   position: relative;
 }
 
-.element .ellipse-23 {
+.element .ellipse-5 {
   position: relative;
 }
 
-.element .ellipse-24 {
+.element .ellipse-6 {
   position: relative;
 }
 
-.element .ellipse-25 {
+.element .ellipse-7 {
   position: relative;
 }
 
-.element .ellipse-26 {
+.element .ellipse-8 {
   position: relative;
 }
 
-.element .ellipse-27 {
+.element .ellipse-9 {
   position: relative;
 }
 
-.element .ellipse-28 {
+.element .ellipse-10 {
   position: relative;
 }
 
-.element .ellipse-29 {
+.element .ellipse-11 {
   position: relative;
 }
 
-.element .text-wrapper-5 {
+.element .p {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
   position: absolute;
 }
 
-.element .text-wrapper-6 {
+.element .text-wrapper-2 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -471,13 +244,26 @@
   transform: rotate(-90.00deg);
 }
 
-.element .battery-2 {
+.element .battery {
   left: 0;
   position: absolute;
   top: 0;
 }
 
-.element .text-wrapper-7 {
+.element .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Libre Barcode 128 Text", Helvetica;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.element .text-wrapper-4 {
   color: #ffffff;
   font-family: "Libre Barcode 128 Text", Helvetica;
   font-weight: 400;
@@ -488,20 +274,20 @@
   white-space: nowrap;
 }
 
-.element .group-8 {
+.element .group-4 {
   position: absolute;
 }
 
-.element .group-9 {
+.element .group-5 {
   position: absolute;
   top: 0;
 }
 
-.element .toriii-name-3 {
+.element .toriii-name-2 {
   position: absolute;
 }
 
-.element .text-wrapper-8 {
+.element .our-technical {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -509,7 +295,7 @@
   text-align: justify;
 }
 
-.element .text-wrapper-9 {
+.element .text-wrapper-5 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -522,7 +308,7 @@
   position: absolute;
 }
 
-.element .overlap-5 {
+.element .overlap-3 {
   background-size: 100% 100%;
   position: relative;
 }
@@ -531,8 +317,123 @@
   position: absolute;
 }
 
-.element .group-10 {
-  background-color: #1f1f1f;
+.element .group-6 {
+  background-color: #363636;
+  border-color: #ffffff;
+  position: absolute;
+}
+
+.element .crypto-ASSETS {
+  position: absolute;
+}
+
+.element .frame-wrapper {
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.element .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.element .frame-6 {
+  position: relative;
+}
+
+.element .tether-usdt-seeklogo {
+  position: relative;
+}
+
+.element .group-wrapper {
+  border-color: #000000;
+  position: relative;
+}
+
+.element .group-7 {
+  position: absolute;
+}
+
+.element .battery-2 {
+  position: absolute;
+}
+
+.element .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+}
+
+.element .rectangle {
+  background: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background-color: var(--variable-collection-secondary-green);
+  border-color: #ffffff;
+  position: relative;
+  transform: rotate(-180.00deg);
+}
+
+.element .ellipse-12 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-13 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-14 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-15 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-16 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-17 {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .rectangle-2 {
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background-color: var(--variable-collection-secondary-green);
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .img-4 {
+  position: absolute;
+}
+
+.element .group-8 {
+  position: absolute;
+}
+
+.element .text-wrapper-6 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  text-align: justify;
+}
+
+.element .group-9 {
+  background-color: #000000;
   border-color: #ffffff;
   position: absolute;
 }
@@ -541,18 +442,18 @@
   position: absolute;
 }
 
-.element .overlap-6 {
+.element .div-wrapper {
   background-color: #ffffff;
   position: absolute;
 }
 
-.element .frame-7 {
+.element .frame-8 {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   position: relative;
 }
 
-.element .frame-8 {
+.element .frame-9 {
   position: relative;
 }
 
@@ -560,96 +461,160 @@
   position: relative;
 }
 
-.element .frame-9 {
+.element .frame-10 {
   border-color: #000000;
   position: relative;
 }
 
-.element .group-11 {
+.element .group-10 {
+  position: absolute;
+  top: 1px;
+}
+
+.element .liquidity {
   position: absolute;
 }
 
-.element .liquidity-2 {
-  position: absolute;
-}
-
-.element .frame-10 {
+.element .frame-11 {
   align-items: center;
   display: inline-flex;
   position: absolute;
 }
 
 .element .rectangle-3 {
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #ffffff;
   position: relative;
   transform: rotate(-180.00deg);
 }
 
-.element .ellipse-30 {
-  background-color: #ffffff;
+.element .ellipse-18 {
+  background-color: #000000;
   border-color: #ffffff;
   position: relative;
 }
 
-.element .ellipse-31 {
-  background-color: #ffffff;
+.element .ellipse-19 {
+  background-color: #000000;
   border-color: #ffffff;
   position: relative;
 }
 
-.element .ellipse-32 {
-  background-color: #ffffff;
+.element .ellipse-20 {
+  background-color: #000000;
   border-color: #ffffff;
   position: relative;
 }
 
-.element .ellipse-33 {
-  background-color: #ffffff;
+.element .ellipse-21 {
+  background-color: #000000;
   border-color: #ffffff;
   position: relative;
 }
 
-.element .ellipse-34 {
-  background-color: #ffffff;
+.element .ellipse-22 {
+  background-color: #000000;
   border-color: #ffffff;
   position: relative;
 }
 
-.element .ellipse-35 {
-  background-color: #ffffff;
+.element .ellipse-23 {
+  background-color: #000000;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.element .ellipse-24 {
+  background-color: #000000;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .rectangle-4 {
-  background: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
   background-color: var(--variable-collection-secondary-green);
-  border: 10px solid #ffffff;
+  border-color: #ffffff;
   position: relative;
 }
 
-.element .img-4 {
+.element .overlap-4 {
   position: absolute;
 }
 
-.element .group-12 {
+.element .vector-2 {
+  position: absolute;
+  top: 0;
+}
+
+.element .text-wrapper-7 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  left: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.element .vector-3 {
+  position: absolute;
+}
+
+.element .vector-4 {
+  position: absolute;
+}
+
+.element .ellipse-25 {
+  background-color: var(--variable-collection-text-secondary);
+  position: absolute;
+}
+
+.element .ellipse-26 {
+  position: absolute;
+}
+
+.element .ellipse-27 {
+  position: absolute;
+}
+
+.element .ellipse-28 {
+  position: absolute;
+}
+
+.element .ellipse-29 {
+  position: absolute;
+}
+
+.element .ellipse-30 {
+  position: absolute;
+}
+
+.element .ellipse-31 {
+  position: absolute;
+}
+
+.element .ellipse-32 {
+  position: absolute;
+}
+
+.element .ellipse-33 {
+  position: absolute;
+}
+
+.element .ellipse-34 {
+  position: absolute;
+}
+
+.element .ellipse-35 {
   position: absolute;
 }
 
 .element .page-service {
+  flex: 0 0 auto;
   position: relative;
 }
 
-.element .frame-11 {
-  position: absolute;
-}
-
 .element .frame-12 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
   position: relative;
 }
 
@@ -671,7 +636,7 @@
   position: relative;
 }
 
-.element .text-wrapper-10 {
+.element .text-wrapper-8 {
   color: var(--variable-collection-secondary-green);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -682,7 +647,7 @@
   width: fit-content;
 }
 
-.element .text-wrapper-11 {
+.element .text-wrapper-9 {
   align-self: stretch;
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
@@ -713,7 +678,7 @@
   position: relative;
 }
 
-.element .text-wrapper-12 {
+.element .text-wrapper-10 {
   color: var(--variable-collection-secondary-green);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -742,7 +707,7 @@
   position: relative;
 }
 
-.element .text-wrapper-13 {
+.element .text-wrapper-11 {
   color: var(--variable-collection-secondary-green);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -753,7 +718,13 @@
   width: fit-content;
 }
 
-.element .text-wrapper-14 {
+.element .frame-19 {
+  height: 447px;
+  position: relative;
+  width: 390px;
+}
+
+.element .text-wrapper-12 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-size: 12px;
@@ -768,7 +739,7 @@
   width: 389px;
 }
 
-.element .text-wrapper-15 {
+.element .text-wrapper-13 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-size: 12px;
@@ -783,7 +754,7 @@
   width: 389px;
 }
 
-.element .text-wrapper-16 {
+.element .text-wrapper-14 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-size: 12px;
@@ -798,7 +769,7 @@
   width: 389px;
 }
 
-.element .frame-19 {
+.element .frame-20 {
   align-items: center;
   display: inline-flex;
   gap: 5.98px;
@@ -809,7 +780,7 @@
   top: 0;
 }
 
-.element .text-wrapper-17 {
+.element .text-wrapper-15 {
   color: var(--variable-collection-secondary-green);
   font-family: "Jersey 25", Helvetica;
   font-size: 21.5px;
@@ -822,7 +793,7 @@
   width: fit-content;
 }
 
-.element .frame-20 {
+.element .frame-21 {
   align-items: center;
   display: inline-flex;
   gap: 5.98px;
@@ -833,7 +804,7 @@
   top: 167px;
 }
 
-.element .frame-21 {
+.element .frame-22 {
   align-items: center;
   display: inline-flex;
   gap: 5.98px;
@@ -844,7 +815,12 @@
   top: 328px;
 }
 
-.element .group-13 {
+.element .overlap-5 {
+  position: absolute;
+  top: 0;
+}
+
+.element .group-11 {
   left: 0;
   position: absolute;
 }
@@ -869,7 +845,7 @@
   width: 721px !important;
 }
 
-.element .logo-toriii-white-3-18 {
+.element .logo-toriii-white-3-3 {
   height: 863px !important;
   left: 0 !important;
   position: absolute !important;
@@ -898,7 +874,34 @@
   width: 995px !important;
 }
 
-.element .logo-toriii-white-3-19 {
+.element .frame-23 {
+  position: absolute;
+}
+
+.element .group-12 {
+  position: absolute;
+  top: 0;
+}
+
+.element .overlap-6 {
+  height: 1008px;
+  position: relative;
+}
+
+.element .group-13 {
+  height: 954px;
+  left: 0;
+  position: absolute;
+  top: 54px;
+  width: 1109px;
+}
+
+.element .overlap-group-4 {
+  height: 954px;
+  position: relative;
+}
+
+.element .logo-toriii-white-3-4 {
   height: 939px !important;
   left: 0 !important;
   position: absolute !important;
@@ -913,85 +916,31 @@
   width: 1083px !important;
 }
 
-.element .frame-22 {
+.element .frame-24 {
+  height: 560px;
+  left: 1038px;
   position: absolute;
+  top: 255px;
+  width: 146px;
 }
 
 .element .group-14 {
+  height: 162px;
+  left: 596px;
   position: absolute;
   top: 0;
+  width: 262px;
 }
 
-.element .logo-list {
+.element .overlap-7 {
   position: absolute;
 }
 
-.element .instance-node {
-  align-self: stretch !important;
-  height: 51.21px !important;
-  position: relative !important;
-  width: 100% !important;
-}
-
-.element .logo-toriii-white-2 {
-  align-self: stretch !important;
-  height: 56.47px !important;
-  position: relative !important;
-  width: 100% !important;
-}
-
-.element .class-10 {
-  height: 69px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 186px !important;
-  width: 79px !important;
-}
-
-.element .logo-toriii-white-3 {
-  align-self: stretch !important;
-  height: 44.39px !important;
-  position: relative !important;
-  width: 100% !important;
-}
-
-.element .class-11 {
-  height: 69px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 372px !important;
-  width: 79px !important;
-}
-
-.element .logo-toriii-white-3-15 {
-  height: 69px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 79px !important;
-}
-
-.element .logo-toriii-white-6-11 {
-  height: 69px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 93px !important;
-  width: 79px !important;
-}
-
-.element .logo-toriii-white-6-12 {
-  height: 69px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 279px !important;
-  width: 79px !important;
-}
-
-.element .frame-23 {
+.element .frame-25 {
   position: absolute;
 }
 
-.element .text-wrapper-18 {
+.element .text-wrapper-16 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -1000,7 +949,7 @@
   text-align: justify;
 }
 
-.element .text-wrapper-19 {
+.element .text-wrapper-17 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -1009,52 +958,13 @@
   text-align: justify;
 }
 
-.element .text-wrapper-20 {
+.element .text-wrapper-18 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
   left: 1px;
   position: absolute;
   text-align: justify;
-}
-
-.element .frame-24 {
-  align-items: center;
-  display: inline-flex;
-  justify-content: center;
-  left: 1px;
-  position: absolute;
-  top: 0;
-}
-
-.element .text-wrapper-21 {
-  color: var(--variable-collection-secondary-green);
-  font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
-  line-height: normal;
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.element .frame-25 {
-  align-items: center;
-  display: inline-flex;
-  justify-content: center;
-  left: 1px;
-  position: absolute;
-}
-
-.element .text-wrapper-22 {
-  color: var(--variable-collection-secondary-green);
-  font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
-  line-height: normal;
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 .element .frame-26 {
@@ -1063,9 +973,48 @@
   justify-content: center;
   left: 1px;
   position: absolute;
+  top: 0;
 }
 
-.element .text-wrapper-23 {
+.element .text-wrapper-19 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .frame-27 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  left: 1px;
+  position: absolute;
+}
+
+.element .text-wrapper-20 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .frame-28 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  left: 1px;
+  position: absolute;
+}
+
+.element .text-wrapper-21 {
   color: var(--variable-collection-secondary-green);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -1082,15 +1031,134 @@
   top: 0;
 }
 
-.element .page-liquidity {
+.element .overlap-8 {
+  height: 841px;
   position: relative;
 }
 
-.element .overlap-7 {
+.element .frame-29 {
+  height: 748px;
+  left: 44px;
+  position: absolute;
+  top: 44px;
+  width: 652px;
+}
+
+.element .text-wrapper-22 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 150px;
+  left: 0;
+  letter-spacing: 0.10px;
+  line-height: 30px;
+  position: absolute;
+  text-align: justify;
+  top: 51px;
+  width: 651px;
+}
+
+.element .text-wrapper-23 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 150px;
+  left: 1px;
+  letter-spacing: 0.10px;
+  line-height: 30px;
+  position: absolute;
+  text-align: justify;
+  top: 324px;
+  width: 651px;
+}
+
+.element .text-wrapper-24 {
+  color: var(--variable-collection-text-secondary-white);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 150px;
+  left: 1px;
+  letter-spacing: 0.10px;
+  line-height: 30px;
+  position: absolute;
+  text-align: justify;
+  top: 597px;
+  width: 651px;
+}
+
+.element .frame-30 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 1px;
+  padding: 4px 0px;
+  position: absolute;
+  top: 0;
+}
+
+.element .text-wrapper-25 {
+  color: var(--variable-collection-secondary-green);
+  font-family: "Jersey 25", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element .frame-31 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 1px;
+  padding: 4px 0px;
+  position: absolute;
+  top: 279px;
+}
+
+.element .frame-32 {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 1px;
+  padding: 4px 0px;
+  position: absolute;
+  top: 548px;
+}
+
+.element .group-16 {
+  height: 841px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 740px;
+}
+
+.element .page-liquidity {
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.element .frame-33 {
+  position: relative;
+}
+
+.element .overlap-9 {
   position: absolute;
 }
 
-.element .frame-27 {
+.element .frame-34 {
   align-items: center;
   background-color: #000000b2;
   display: inline-flex;
@@ -1099,11 +1167,11 @@
   position: absolute;
 }
 
-.element .frame-28 {
+.element .frame-35 {
   position: relative;
 }
 
-.element .frame-29 {
+.element .frame-36 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -1123,7 +1191,7 @@
   width: 101.67px !important;
 }
 
-.element .logo-binance-white-4 {
+.element .logo-binance-white-6 {
   height: 30.92px !important;
   position: relative !important;
   width: 154.62px !important;
@@ -1159,7 +1227,7 @@
   width: 202.92px !important;
 }
 
-.element .frame-30 {
+.element .frame-37 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -1194,7 +1262,7 @@
   width: 175.87px !important;
 }
 
-.element .frame-31 {
+.element .frame-38 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -1207,19 +1275,19 @@
   width: 68.86px !important;
 }
 
-.element .logo-ace-white-4 {
+.element .logo-ace-white-6 {
   height: 30.97px !important;
   position: relative !important;
   width: 91.46px !important;
 }
 
-.element .class-12 {
+.element .class-10 {
   height: 14.72px !important;
   position: relative !important;
   width: 69.75px !important;
 }
 
-.element .class-13 {
+.element .class-11 {
   height: 19.54px !important;
   position: relative !important;
   width: 92.63px !important;
@@ -1231,13 +1299,13 @@
   width: 130.55px !important;
 }
 
-.element .logo-ace-white-7 {
+.element .class-12 {
   height: 42.75px !important;
   position: relative !important;
   width: 126.27px !important;
 }
 
-.element .logo-ace-white-8 {
+.element .class-13 {
   height: 46.53px !important;
   position: relative !important;
   width: 137.44px !important;
@@ -1255,12 +1323,6 @@
   width: 127.89px !important;
 }
 
-.element .logo-bitopro-white-8 {
-  height: 46.53px !important;
-  position: relative !important;
-  width: 196.18px !important;
-}
-
 .element .class-16 {
   height: 23.32px !important;
   position: relative !important;
@@ -1273,26 +1335,32 @@
   width: 180.24px !important;
 }
 
-.element .group-16 {
+.element .logo-bitopro-white-8 {
+  height: 46.53px !important;
+  position: relative !important;
+  width: 196.18px !important;
+}
+
+.element .group-17 {
   left: 0;
   position: absolute;
   top: 0;
 }
 
-.element .frame-32 {
+.element .frame-39 {
   position: absolute;
 }
 
-.element .frame-33 {
+.element .frame-40 {
   position: absolute;
-  top: 1px;
+  top: 0;
 }
 
-.element .overlap-group-4 {
+.element .overlap-group-5 {
   position: relative;
 }
 
-.element .group-17 {
+.element .group-18 {
   background-size: 100% 100%;
   left: 0;
   position: absolute;
@@ -1333,18 +1401,18 @@
   position: absolute;
 }
 
-.element .frame-34 {
+.element .frame-41 {
   position: absolute;
 }
 
-.element .frame-35 {
+.element .frame-42 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
   position: absolute;
 }
 
-.element .text-wrapper-24 {
+.element .text-wrapper-26 {
   color: #ffffff;
   font-family: "Libre Barcode 128 Text", Helvetica;
   font-weight: 400;
@@ -1356,7 +1424,7 @@
   width: fit-content;
 }
 
-.element .text-wrapper-25 {
+.element .text-wrapper-27 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -1370,7 +1438,7 @@
   position: absolute;
 }
 
-.element .frame-36 {
+.element .frame-43 {
   position: absolute;
 }
 
@@ -1378,12 +1446,12 @@
   position: absolute;
 }
 
-.element .overlap-8 {
+.element .overlap-10 {
   left: 0;
   position: absolute;
 }
 
-.element .overlap-9 {
+.element .overlap-11 {
   left: 0;
   position: absolute;
   top: 0;
@@ -1394,7 +1462,7 @@
   position: absolute;
 }
 
-.element .group-18 {
+.element .group-19 {
   left: 0;
   position: absolute;
   top: 0;
@@ -1408,7 +1476,7 @@
   position: absolute;
 }
 
-.element .frame-37 {
+.element .frame-44 {
   position: absolute;
 }
 
@@ -1417,7 +1485,7 @@
   top: 0;
 }
 
-.element .frame-38 {
+.element .frame-45 {
   align-items: center;
   display: inline-flex;
   position: absolute;
@@ -1468,12 +1536,12 @@
   position: relative;
 }
 
-.element .frame-39 {
+.element .frame-46 {
   overflow: hidden;
   position: absolute;
 }
 
-.element .overlap-group-5 {
+.element .overlap-group-6 {
   background-size: 100% 100%;
   position: relative;
 }
@@ -1486,16 +1554,16 @@
   position: absolute;
 }
 
-.element .frame-40 {
+.element .frame-47 {
   position: absolute;
   top: 0;
 }
 
-.element .overlap-10 {
+.element .overlap-12 {
   position: relative;
 }
 
-.element .group-19 {
+.element .group-20 {
   background-size: 100% 100%;
   left: 0;
   position: absolute;
@@ -1536,18 +1604,19 @@
   position: absolute;
 }
 
-.element .frame-41 {
+.element .frame-48 {
+  left: 0;
   position: absolute;
 }
 
-.element .frame-42 {
+.element .frame-49 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
   position: absolute;
 }
 
-.element .text-wrapper-26 {
+.element .text-wrapper-28 {
   color: #ffffff;
   font-family: "Libre Barcode 128 Text", Helvetica;
   font-weight: 400;
@@ -1559,7 +1628,7 @@
   width: fit-content;
 }
 
-.element .text-wrapper-27 {
+.element .text-wrapper-29 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -1571,15 +1640,15 @@
   position: absolute;
 }
 
-.element .frame-43 {
+.element .frame-50 {
   position: absolute;
 }
 
-.element .overlap-11 {
+.element .overlap-13 {
   position: absolute;
 }
 
-.element .frame-44 {
+.element .frame-51 {
   align-items: center;
   background-color: #000000b2;
   display: inline-flex;
@@ -1588,11 +1657,11 @@
   position: absolute;
 }
 
-.element .frame-45 {
+.element .frame-52 {
   position: relative;
 }
 
-.element .frame-46 {
+.element .frame-53 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -1612,7 +1681,7 @@
   width: 89.3px !important;
 }
 
-.element .logo-binance-white-2 {
+.element .logo-binance-white-5 {
   height: 23.63px !important;
   position: relative !important;
   width: 118.13px !important;
@@ -1636,7 +1705,7 @@
   width: 113.77px !important;
 }
 
-.element .logo-binance-white-6 {
+.element .logo-binance-white-4 {
   height: 31.69px !important;
   position: relative !important;
   width: 158.47px !important;
@@ -1648,7 +1717,7 @@
   width: 138.4px !important;
 }
 
-.element .frame-47 {
+.element .frame-54 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -1683,7 +1752,7 @@
   width: 119.95px !important;
 }
 
-.element .frame-48 {
+.element .frame-55 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
@@ -1696,7 +1765,7 @@
   width: 60.49px !important;
 }
 
-.element .logo-ace-white-5 {
+.element .logo-ace-white-2 {
   height: 23.66px !important;
   position: relative !important;
   width: 69.88px !important;
@@ -1726,7 +1795,7 @@
   width: 77.06px !important;
 }
 
-.element .logo-ace-white-6 {
+.element .logo-ace-white-4 {
   height: 31.74px !important;
   position: relative !important;
   width: 93.74px !important;
@@ -1756,13 +1825,13 @@
   width: 86.34px !important;
 }
 
-.element .logo-bitopro-white-6 {
+.element .logo-bitopro-white-3 {
   height: 26.09px !important;
   position: relative !important;
   width: 110px !important;
 }
 
-.element .group-20 {
+.element .group-21 {
   left: 0;
   position: absolute;
   top: 0;
@@ -1780,6 +1849,10 @@
   width: 100%;
 }
 
+.footer-placeholder {
+  height: 60px;
+}
+
 .element .footer-container {
   align-items: center;
   align-self: stretch;
@@ -1788,10 +1861,6 @@
   flex: 1;
   flex-grow: 1;
   position: relative;
-}
-
-.element .footer-container-placeholder {
-  height: 40px;
 }
 
 .element .cc {
@@ -1803,7 +1872,7 @@
   position: relative;
 }
 
-.element .text-wrapper-28 {
+.element .text-wrapper-30 {
   color: #000000;
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -1842,20 +1911,14 @@
 
 .element .cc-2 {
   align-items: center;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-color: #000000;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 10px;
   justify-content: center;
-  margin-bottom: -2.00px;
-  margin-left: -2.00px;
-  margin-top: -2.00px;
   position: relative;
 }
 
-.element .text-wrapper-29 {
+.element .text-wrapper-31 {
   color: #000000;
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;
@@ -1872,20 +1935,14 @@
 
 .element .cc-3 {
   align-items: center;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-color: #000000;
   display: inline-flex;
   flex: 0 0 auto;
   gap: 10px;
   justify-content: center;
-  margin-bottom: -2.00px;
-  margin-right: -2.00px;
-  margin-top: -2.00px;
   position: relative;
 }
 
-.element .text-wrapper-30 {
+.element .text-wrapper-32 {
   color: #000000;
   font-family: "Jersey 25", Helvetica;
   font-weight: 400;

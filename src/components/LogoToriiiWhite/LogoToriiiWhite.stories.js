@@ -9,6 +9,6 @@ export const Default = {
   args: {
     className: {},
     logoToriiiWhite:
-      "https://c.animaapp.com/N6qZcdUt/img/logo-toriii-white-6.png",
+      "https://c.animaapp.com/hycCuBbS/img/logo-toriii-white-6.png",
   },
 };
