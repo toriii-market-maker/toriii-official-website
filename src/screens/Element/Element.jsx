@@ -5810,7 +5810,7 @@ export const Element = () => {
                       : undefined,
               height:
                 screenWidth >= 500 && screenWidth < 768
-                  ? "448px"
+                  ? "480px"
                   : screenWidth >= 768 && screenWidth < 992
                     ? "505px"
                     : screenWidth >= 992 && screenWidth < 1366
@@ -5901,7 +5901,7 @@ export const Element = () => {
                               : undefined,
                       }}
                     >
-                      Liquidity provider
+                      Liquidity Providing
                     </div>
                   </div>
 
@@ -6075,7 +6075,7 @@ export const Element = () => {
                 </p>
 
                 <div className="frame-20">
-                  <div className="text-wrapper-15">Liquidity provider</div>
+                  <div className="text-wrapper-15">Liquidity Providing</div>
                 </div>
 
                 <div className="frame-21">
@@ -6412,11 +6412,11 @@ export const Element = () => {
                           style={{
                             fontSize:
                               screenWidth >= 768 && screenWidth < 992
-                                ? "10px"
+                                ? "12px"
                                 : screenWidth >= 992 && screenWidth < 1366
-                                  ? "13.3px"
+                                  ? "16px"
                                   : screenWidth >= 1366 && screenWidth < 1920
-                                    ? "18.4px"
+                                    ? "20px"
                                     : undefined,
                             height:
                               screenWidth >= 768 && screenWidth < 992
@@ -6436,11 +6436,11 @@ export const Element = () => {
                                     : undefined,
                             lineHeight:
                               screenWidth >= 768 && screenWidth < 992
-                                ? "15.0px"
+                                ? "16.0px"
                                 : screenWidth >= 992 && screenWidth < 1366
-                                  ? "20.0px"
+                                  ? "22.0px"
                                   : screenWidth >= 1366 && screenWidth < 1920
-                                    ? "27.6px"
+                                    ? "30.0px"
                                     : undefined,
                             top:
                               screenWidth >= 768 && screenWidth < 992
@@ -6475,11 +6475,11 @@ export const Element = () => {
                           style={{
                             fontSize:
                               screenWidth >= 768 && screenWidth < 992
-                                ? "10px"
+                                ? "12px"
                                 : screenWidth >= 992 && screenWidth < 1366
-                                  ? "13.3px"
+                                  ? "16px"
                                   : screenWidth >= 1366 && screenWidth < 1920
-                                    ? "18.4px"
+                                    ? "20px"
                                     : undefined,
                             height:
                               screenWidth >= 768 && screenWidth < 992
@@ -6499,11 +6499,11 @@ export const Element = () => {
                                     : undefined,
                             lineHeight:
                               screenWidth >= 768 && screenWidth < 992
-                                ? "15.0px"
+                                ? "16.0px"
                                 : screenWidth >= 992 && screenWidth < 1366
-                                  ? "20.0px"
+                                  ? "22.0px"
                                   : screenWidth >= 1366 && screenWidth < 1920
-                                    ? "27.6px"
+                                    ? "30.0px"
                                     : undefined,
                             top:
                               screenWidth >= 768 && screenWidth < 992
@@ -6537,11 +6537,11 @@ export const Element = () => {
                           style={{
                             fontSize:
                               screenWidth >= 768 && screenWidth < 992
-                                ? "10px"
+                                ? "12px"
                                 : screenWidth >= 992 && screenWidth < 1366
-                                  ? "13.3px"
+                                  ? "16px"
                                   : screenWidth >= 1366 && screenWidth < 1920
-                                    ? "18.4px"
+                                    ? "20px"
                                     : undefined,
                             height:
                               screenWidth >= 768 && screenWidth < 992
@@ -6561,11 +6561,11 @@ export const Element = () => {
                                     : undefined,
                             lineHeight:
                               screenWidth >= 768 && screenWidth < 992
-                                ? "15.0px"
+                                ? "16.0px"
                                 : screenWidth >= 992 && screenWidth < 1366
-                                  ? "20.0px"
+                                  ? "22.0px"
                                   : screenWidth >= 1366 && screenWidth < 1920
-                                    ? "27.6px"
+                                    ? "30.0px"
                                     : undefined,
                             top:
                               screenWidth >= 768 && screenWidth < 992
@@ -6637,7 +6637,7 @@ export const Element = () => {
                                       : undefined,
                             }}
                           >
-                            Liquidity provider
+                            Liquidity Providing
                           </div>
                         </div>
 
@@ -6755,11 +6755,11 @@ export const Element = () => {
                         style={{
                           height:
                             screenWidth >= 768 && screenWidth < 992
-                              ? "421px"
+                              ? "440px"
                               : screenWidth >= 992 && screenWidth < 1366
-                                ? "560px"
+                                ? "590px"
                                 : screenWidth >= 1366 && screenWidth < 1920
-                                  ? "773px"
+                                  ? "800px"
                                   : undefined,
                           width:
                             screenWidth >= 768 && screenWidth < 992
@@ -6821,7 +6821,7 @@ export const Element = () => {
 
                         <div className="frame-30">
                           <div className="text-wrapper-25">
-                            Liquidity provider
+                            Liquidity Providing
                           </div>
                         </div>
 

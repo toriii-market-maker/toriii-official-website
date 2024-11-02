@@ -172,7 +172,6 @@
 .element .line-1 {
   position: absolute;
   width: 2px;
-  /* transform: rotate(90deg); */
   z-index: 1;
 }
 
@@ -491,7 +490,7 @@
 }
 
 .element .rectangle-3 {
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #ffffff;
   position: relative;
@@ -499,49 +498,49 @@
 }
 
 .element .ellipse-18 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-19 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-20 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-21 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-22 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-23 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .ellipse-24 {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: #ffffff;
   position: relative;
 }
 
 .element .rectangle-4 {
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
+  background: linear-gradient(-90deg, rgb(0, 0, 0) 0%, rgb(177, 227, 34) 100%);
   background-color: var(--variable-collection-secondary-green);
   border-color: #ffffff;
   position: relative;
@@ -660,10 +659,10 @@
   align-self: stretch;
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.06px;
-  line-height: 18px;
+  line-height: 20px;
   position: relative;
   text-align: justify;
 }
@@ -728,7 +727,7 @@
 }
 
 .element .frame-19 {
-  height: 447px;
+  height: 480px;
   position: relative;
   width: 390px;
 }
@@ -736,12 +735,12 @@
 .element .text-wrapper-12 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  height: 90px;
+  height: 120px;
   left: 0;
   letter-spacing: 0.06px;
-  line-height: 17.9px;
+  line-height: 20px;
   position: absolute;
   text-align: justify;
   top: 31px;
@@ -751,12 +750,12 @@
 .element .text-wrapper-13 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  height: 90px;
+  height: 120px;
   left: 1px;
   letter-spacing: 0.06px;
-  line-height: 17.9px;
+  line-height: 20px;
   position: absolute;
   text-align: justify;
   top: 194px;
@@ -766,12 +765,12 @@
 .element .text-wrapper-14 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
-  height: 90px;
+  height: 120px;
   left: 1px;
   letter-spacing: 0.06px;
-  line-height: 17.9px;
+  line-height: 20px;
   position: absolute;
   text-align: justify;
   top: 357px;
@@ -952,7 +951,7 @@
 .element .text-wrapper-16 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
+  font-weight: 100;
   left: 0;
   position: absolute;
   text-align: justify;
@@ -961,7 +960,7 @@
 .element .text-wrapper-17 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
+  font-weight: 100;
   left: 1px;
   position: absolute;
   text-align: justify;
@@ -970,7 +969,7 @@
 .element .text-wrapper-18 {
   color: var(--variable-collection-text-secondary-white);
   font-family: "Jersey 25", Helvetica;
-  font-weight: 400;
+  font-weight: 100;
   left: 1px;
   position: absolute;
   text-align: justify;
