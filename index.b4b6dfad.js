@@ -27292,6 +27292,11 @@ const Element = ()=>{
         setHeaderVisible(true);
         setLastScrollY(currentScrollY);
     };
+    const centerPosition = {
+        left: "50%",
+        top: "50%",
+        transform: "translate(-50%, -50%)"
+    };
     (0, _react.useEffect)(()=>{
         window.addEventListener("scroll", handleScroll);
         return ()=>{
@@ -27314,7 +27319,7 @@ const Element = ()=>{
                 className: "header-placeholder"
             }, void 0, false, {
                 fileName: "src/screens/Element/Element.jsx",
-                lineNumber: 124,
+                lineNumber: 129,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
@@ -27337,12 +27342,12 @@ const Element = ()=>{
                             className: "logo-toriii-white-4-1"
                         }, void 0, false, {
                             fileName: "src/screens/Element/Element.jsx",
-                            lineNumber: 198,
+                            lineNumber: 203,
                             columnNumber: 15
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/Element/Element.jsx",
-                        lineNumber: 161,
+                        lineNumber: 166,
                         columnNumber: 11
                     }, undefined),
                     (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -27363,12 +27368,12 @@ const Element = ()=>{
                                     className: "logo-toriii-white-4-8"
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 249,
+                                    lineNumber: 254,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/Element/Element.jsx",
-                                lineNumber: 208,
+                                lineNumber: 213,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27388,7 +27393,7 @@ const Element = ()=>{
                                         onClick: ()=>scrollToSection("about-us-section")
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 282,
+                                        lineNumber: 287,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerTextDefault.HeaderTextDefault), {
@@ -27400,7 +27405,7 @@ const Element = ()=>{
                                         onClick: ()=>scrollToSection("service-section")
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 296,
+                                        lineNumber: 301,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerTextDefault.HeaderTextDefault), {
@@ -27412,13 +27417,13 @@ const Element = ()=>{
                                         onClick: ()=>scrollToSection("liquidity-section")
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 304,
+                                        lineNumber: 309,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/Element/Element.jsx",
-                                lineNumber: 253,
+                                lineNumber: 258,
                                 columnNumber: 13
                             }, undefined)
                         ]
@@ -27426,7 +27431,7 @@ const Element = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "src/screens/Element/Element.jsx",
-                lineNumber: 125,
+                lineNumber: 130,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27496,7 +27501,7 @@ const Element = ()=>{
                                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-2.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-4.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-6.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 647,
+                                                                    lineNumber: 652,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27512,7 +27517,7 @@ const Element = ()=>{
                                                                     children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 694,
+                                                                    lineNumber: 699,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27527,13 +27532,13 @@ const Element = ()=>{
                                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/group-50@2x.png" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/group-50-1@2x.png" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/group-50-2@2x.png" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/group-50-3@2x.png" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 768,
+                                                                    lineNumber: 773,
                                                                     columnNumber: 23
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 612,
+                                                            lineNumber: 617,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27566,17 +27571,17 @@ const Element = ()=>{
                                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/-.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/--2.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/--4.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/--6.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 933,
+                                                                    lineNumber: 938,
                                                                     columnNumber: 25
                                                                 }, undefined)
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 882,
+                                                                lineNumber: 887,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 827,
+                                                            lineNumber: 832,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27591,7 +27596,7 @@ const Element = ()=>{
                                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/99--.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/99---1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/99---2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/99---3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 992,
+                                                            lineNumber: 997,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27605,7 +27610,7 @@ const Element = ()=>{
                                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/group-39@2x.png" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/group-39-1@2x.png" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/group-39-2@2x.png" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/group-39-3@2x.png" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1050,
+                                                            lineNumber: 1055,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
@@ -27629,7 +27634,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/vector-17.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/vector-20.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-23.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-26.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1129,
+                                                            lineNumber: 1134,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27642,21 +27647,23 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-1.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-2.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-3.png" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1187,
+                                                            lineNumber: 1192,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                            className: "line",
+                                                            className: "line-1",
                                                             style: {
-                                                                left: screenWidth >= 768 && screenWidth < 992 ? "11px" : screenWidth >= 992 && screenWidth < 1366 ? "15px" : screenWidth >= 1366 && screenWidth < 1920 ? "20px" : screenWidth >= 1920 ? "22px" : undefined,
-                                                                top: screenWidth >= 768 && screenWidth < 992 ? "69px" : screenWidth >= 992 && screenWidth < 1366 ? "91px" : screenWidth >= 1366 && screenWidth < 1920 ? "126px" : screenWidth >= 1920 ? "137px" : undefined,
-                                                                width: screenWidth >= 768 && screenWidth < 992 ? "108px" : screenWidth >= 992 && screenWidth < 1366 ? "144px" : screenWidth >= 1366 && screenWidth < 1920 ? "198px" : screenWidth >= 1920 ? "216px" : undefined
+                                                                ...centerPosition,
+                                                                height: screenWidth >= 768 && screenWidth < 992 ? "108px" : screenWidth >= 992 && screenWidth < 1366 ? "144px" : screenWidth >= 1366 && screenWidth < 1920 ? "198px" : screenWidth >= 1920 ? "216px" : undefined,
+                                                                transform: "rotate(90deg)",
+                                                                left: screenWidth >= 768 && screenWidth < 992 ? "63px" : screenWidth >= 992 && screenWidth < 1366 ? "84px" : screenWidth >= 1366 && screenWidth < 1920 ? "116px" : screenWidth >= 1920 ? "126px" : undefined,
+                                                                top: screenWidth >= 768 && screenWidth < 992 ? "11px" : screenWidth >= 992 && screenWidth < 1366 ? "15px" : screenWidth >= 1366 && screenWidth < 1920 ? "20px" : screenWidth >= 1920 ? "22px" : undefined
                                                             },
                                                             alt: "Line",
-                                                            src: screenWidth >= 768 && screenWidth < 992 ? "/img/line-2-3.svg" : screenWidth >= 992 && screenWidth < 1366 ? "/img/line-2-2.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "/img/image.svg" : screenWidth >= 1920 ? "/img/line-2.svg" : undefined
+                                                            src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/line-3.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/line-3-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/line-3-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/line-3-3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1225,
+                                                            lineNumber: 1232,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27670,7 +27677,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/line-3.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/line-3-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/line-3-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/line-3-3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1273,
+                                                            lineNumber: 1282,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27685,7 +27692,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/frame-39887.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/frame-39887-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39887-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39887-3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1321,
+                                                            lineNumber: 1330,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27704,7 +27711,7 @@ const Element = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1404,
+                                                                    lineNumber: 1413,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27717,7 +27724,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1440,
+                                                                    lineNumber: 1449,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27730,7 +27737,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1478,
+                                                                    lineNumber: 1487,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27743,7 +27750,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1516,
+                                                                    lineNumber: 1525,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27756,7 +27763,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1554,
+                                                                    lineNumber: 1563,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27769,7 +27776,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1592,
+                                                                    lineNumber: 1601,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27782,7 +27789,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1630,
+                                                                    lineNumber: 1639,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27795,7 +27802,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1668,
+                                                                    lineNumber: 1677,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27808,7 +27815,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1706,
+                                                                    lineNumber: 1715,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27821,7 +27828,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1744,
+                                                                    lineNumber: 1753,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27834,13 +27841,13 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12-7.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 1782,
+                                                                    lineNumber: 1791,
                                                                     columnNumber: 23
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1379,
+                                                            lineNumber: 1388,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27857,19 +27864,19 @@ const Element = ()=>{
                                                             children: "Specializing in high frequency and low latency solutions for digital asset markets."
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 1821,
+                                                            lineNumber: 1830,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 1104,
+                                                    lineNumber: 1109,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 535,
+                                            lineNumber: 540,
                                             columnNumber: 15
                                         }, undefined),
                                         (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -27888,7 +27895,7 @@ const Element = ()=>{
                                                     children: "Our technical prowess extends beyond trading to provide valuable support and optimization services. We specialize in enhancing trading systems, improving execution speed, and building stable, robust trading infrastructure. Combined with our trading acumen, positions us as a comprehensive solution provider in the quantitative trading and cryptocurrency market-making landscape."
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 1908,
+                                                    lineNumber: 1917,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27901,7 +27908,7 @@ const Element = ()=>{
                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/battery-4@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/battery-5@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/battery-6@2x.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/battery-7@2x.png" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 1991,
+                                                    lineNumber: 2000,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
@@ -27915,13 +27922,13 @@ const Element = ()=>{
                                             children: "TORIII TECHNOLOGY CORP."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2035,
+                                            lineNumber: 2044,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 461,
+                                    lineNumber: 466,
                                     columnNumber: 13
                                 }, undefined),
                                 (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -27937,7 +27944,7 @@ const Element = ()=>{
                                             children: "TORIII TECHNOLOGY CORP."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2070,
+                                            lineNumber: 2079,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27952,7 +27959,7 @@ const Element = ()=>{
                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-40-4@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-40-5.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-40-6.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-40-7.png" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2118,
+                                            lineNumber: 2127,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27966,7 +27973,7 @@ const Element = ()=>{
                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-39-4@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-39-6@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-39-8@2x.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-39-10@2x.png" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2176,
+                                            lineNumber: 2185,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27981,7 +27988,7 @@ const Element = ()=>{
                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-8.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-9.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-10.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-11.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2224,
+                                            lineNumber: 2233,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
@@ -28003,7 +28010,7 @@ const Element = ()=>{
                                             children: "Our technical prowess extends beyond trading to provide valuable support and optimization services. We specialize in enhancing trading systems, improving execution speed, and building stable, robust trading infrastructure. Combined with our trading acumen, positions us as a comprehensive solution provider in the quantitative trading and cryptocurrency market-making landscape."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2414,
+                                            lineNumber: 2423,
                                             columnNumber: 17
                                         }, undefined),
                                         (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28011,13 +28018,13 @@ const Element = ()=>{
                                             children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2429,
+                                            lineNumber: 2438,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 2284,
+                                    lineNumber: 2293,
                                     columnNumber: 13
                                 }, undefined),
                                 (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -28036,7 +28043,7 @@ const Element = ()=>{
                                             children: "We provide a wide array of financial services tailored to the cryptocurrency ecosystem. In the exchange space, we enhance liquidity while limiting volatility through high-frequency and quantitative trading strategies. Our asset management division employs a multi-strategy approach to deliver consistent and uncorrelated returns from the market."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2446,
+                                            lineNumber: 2455,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28069,17 +28076,17 @@ const Element = ()=>{
                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/--8.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/--9.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/--10.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/--11.svg" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 2637,
+                                                    lineNumber: 2646,
                                                     columnNumber: 21
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 2582,
+                                                lineNumber: 2591,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2528,
+                                            lineNumber: 2537,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28105,7 +28112,7 @@ const Element = ()=>{
                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets-7.svg" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 2762,
+                                                    lineNumber: 2771,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28135,7 +28142,7 @@ const Element = ()=>{
                                                                 src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904-7.svg" : undefined
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 2909,
+                                                                lineNumber: 2918,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28148,7 +28155,7 @@ const Element = ()=>{
                                                                 src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo-7.svg" : undefined
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 2947,
+                                                                lineNumber: 2956,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28171,29 +28178,29 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-54-4@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-54-5@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-54-6@2x.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-54-7@2x.png" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 3030,
+                                                                    lineNumber: 3039,
                                                                     columnNumber: 25
                                                                 }, undefined)
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 2985,
+                                                                lineNumber: 2994,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 2874,
+                                                        lineNumber: 2883,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 2820,
+                                                    lineNumber: 2829,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 2697,
+                                            lineNumber: 2706,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
@@ -28210,7 +28217,7 @@ const Element = ()=>{
                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/battery@2x.png" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/battery-1@2x.png" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/battery-2@2x.png" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/battery-3@2x.png" : screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/liquidity--4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/liquidity--5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/liquidity--6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/liquidity--7.svg" : undefined
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 3092,
+                                    lineNumber: 3101,
                                     columnNumber: 13
                                 }, undefined),
                                 (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28231,7 +28238,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3228,
+                                            lineNumber: 3237,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28244,7 +28251,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3274,
+                                            lineNumber: 3283,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28257,7 +28264,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3320,
+                                            lineNumber: 3329,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28270,7 +28277,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3366,
+                                            lineNumber: 3375,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28283,7 +28290,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3412,
+                                            lineNumber: 3421,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28296,7 +28303,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3458,
+                                            lineNumber: 3467,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28309,7 +28316,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3504,
+                                            lineNumber: 3513,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28322,13 +28329,13 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3550,
+                                            lineNumber: 3559,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 3194,
+                                    lineNumber: 3203,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28343,7 +28350,7 @@ const Element = ()=>{
                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/99---4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/99---5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/99---6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/99---7.svg" : screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/group-40@2x.png" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/group-40-1@2x.png" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/group-40-2@2x.png" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/group-40-3@2x.png" : undefined
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 3598,
+                                    lineNumber: 3607,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28358,7 +28365,7 @@ const Element = ()=>{
                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-50-4@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-50-5@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-50-6@2x.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-50-7@2x.png" : screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-1.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-3.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-5.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/toriii-name-7.svg" : undefined
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 3690,
+                                    lineNumber: 3699,
                                     columnNumber: 13
                                 }, undefined),
                                 (screenWidth >= 375 && screenWidth < 414 || screenWidth >= 414 && screenWidth < 500 || screenWidth >= 500 && screenWidth < 768 || screenWidth < 375) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -28377,7 +28384,7 @@ const Element = ()=>{
                                             children: "We provide a wide array of financial services tailored to the cryptocurrency ecosystem. In the exchange space, we enhance liquidity while limiting volatility through high-frequency and quantitative trading strategies. Our asset management division employs a multi-strategy approach to deliver consistent and uncorrelated returns from the market."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3793,
+                                            lineNumber: 3802,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28403,7 +28410,7 @@ const Element = ()=>{
                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/crypto-assets-3.svg" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 3939,
+                                                    lineNumber: 3948,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28435,7 +28442,7 @@ const Element = ()=>{
                                                                 src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/frame-39904-3.svg" : undefined
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 4104,
+                                                                lineNumber: 4113,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28448,7 +28455,7 @@ const Element = ()=>{
                                                                 src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/tether-usdt-seeklogo-3.svg" : undefined
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 4142,
+                                                                lineNumber: 4151,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28470,29 +28477,29 @@ const Element = ()=>{
                                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/group-54@2x.png" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/group-54-1@2x.png" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/group-54-2@2x.png" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/group-54-3@2x.png" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 4225,
+                                                                    lineNumber: 4234,
                                                                     columnNumber: 25
                                                                 }, undefined)
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 4180,
+                                                                lineNumber: 4189,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 4050,
+                                                        lineNumber: 4059,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 3997,
+                                                    lineNumber: 4006,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 3874,
+                                            lineNumber: 3883,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28507,7 +28514,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/liquidity-.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/liquidity--1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/liquidity--2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/liquidity--3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 4276,
+                                            lineNumber: 4285,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28528,7 +28535,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4368,
+                                                    lineNumber: 4377,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28541,7 +28548,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4414,
+                                                    lineNumber: 4423,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28554,7 +28561,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4460,
+                                                    lineNumber: 4469,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28567,7 +28574,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4506,
+                                                    lineNumber: 4515,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28580,7 +28587,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4552,
+                                                    lineNumber: 4561,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28593,7 +28600,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4598,
+                                                    lineNumber: 4607,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28606,7 +28613,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4644,
+                                                    lineNumber: 4653,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28619,7 +28626,7 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4690,
+                                                    lineNumber: 4699,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28632,13 +28639,13 @@ const Element = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4736,
+                                                    lineNumber: 4745,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 4334,
+                                            lineNumber: 4343,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28661,7 +28668,7 @@ const Element = ()=>{
                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/vector.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/vector-4.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/vector-8.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/vector-12.svg" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4828,
+                                                    lineNumber: 4837,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28677,13 +28684,13 @@ const Element = ()=>{
                                                     children: "Specializing in high frequency and low latency solutions for digital asset markets."
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 4876,
+                                                    lineNumber: 4885,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 4783,
+                                            lineNumber: 4792,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28698,7 +28705,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/vector-1.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/vector-5.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/vector-9.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/vector-13.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 4946,
+                                            lineNumber: 4955,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28713,7 +28720,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/vector-2.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/vector-6.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/vector-10.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/vector-15.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5004,
+                                            lineNumber: 5013,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28727,7 +28734,7 @@ const Element = ()=>{
                                             }
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5061,
+                                            lineNumber: 5070,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28742,7 +28749,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-6-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5117,
+                                            lineNumber: 5126,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28757,7 +28764,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-7-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5175,
+                                            lineNumber: 5184,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28772,7 +28779,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-8-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5233,
+                                            lineNumber: 5242,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28787,7 +28794,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-9-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5291,
+                                            lineNumber: 5300,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28802,7 +28809,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-10-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5349,
+                                            lineNumber: 5358,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28817,7 +28824,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-11-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5407,
+                                            lineNumber: 5416,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28832,7 +28839,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-13-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5465,
+                                            lineNumber: 5474,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28847,7 +28854,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-14-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5523,
+                                            lineNumber: 5532,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28862,7 +28869,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-15-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5581,
+                                            lineNumber: 5590,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -28877,7 +28884,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/ellipse-12-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5639,
+                                            lineNumber: 5648,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
@@ -28885,12 +28892,12 @@ const Element = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Element/Element.jsx",
-                            lineNumber: 413,
+                            lineNumber: 418,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/Element/Element.jsx",
-                        lineNumber: 368,
+                        lineNumber: 373,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28940,12 +28947,12 @@ const Element = ()=>{
                                                         children: "Liquidity provider"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 5875,
+                                                        lineNumber: 5884,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 5854,
+                                                    lineNumber: 5863,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28953,13 +28960,13 @@ const Element = ()=>{
                                                     children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 5899,
+                                                    lineNumber: 5908,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5842,
+                                            lineNumber: 5851,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28980,12 +28987,12 @@ const Element = ()=>{
                                                         children: "Comprehensive Financial Services"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 5932,
+                                                        lineNumber: 5941,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 5911,
+                                                    lineNumber: 5920,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28993,13 +29000,13 @@ const Element = ()=>{
                                                     children: "We provide a wide array of financial services tailored to the cryptocurrency ecosystem. In the exchange space, we enhance liquidity while limiting volatility through high-frequency and quantitative trading strategies. Our asset management division employs a multi-strategy approach to deliver consistent and uncorrelated returns from the market."
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 5956,
+                                                    lineNumber: 5965,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5910,
+                                            lineNumber: 5919,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29023,12 +29030,12 @@ const Element = ()=>{
                                                         children: "Technical Expertise and Optimization"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 6000,
+                                                        lineNumber: 6009,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 5979,
+                                                    lineNumber: 5988,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29036,13 +29043,13 @@ const Element = ()=>{
                                                     children: "Our technical prowess extends beyond trading to provide valuable support and optimization services. We specialize in enhancing trading systems, improving execution speed, and building stable, robust trading infrastructure. Combined with our trading acumen, positions us as a comprehensive solution provider in the quantitative trading and cryptocurrency market-making landscape."
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 6024,
+                                                    lineNumber: 6033,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 5967,
+                                            lineNumber: 5976,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
@@ -29055,7 +29062,7 @@ const Element = ()=>{
                                             children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6039,
+                                            lineNumber: 6048,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29063,7 +29070,7 @@ const Element = ()=>{
                                             children: "We provide a wide array of financial services tailored to the cryptocurrency ecosystem. In the exchange space, we enhance liquidity while limiting volatility through high-frequency and quantitative trading strategies. Our asset management division employs a multi-strategy approach to deliver consistent and uncorrelated returns from the market."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6049,
+                                            lineNumber: 6058,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29071,7 +29078,7 @@ const Element = ()=>{
                                             children: "Our technical prowess extends beyond trading to provide valuable support and optimization services. We specialize in enhancing trading systems, improving execution speed, and building stable, robust trading infrastructure. Combined with our trading acumen, positions us as a comprehensive solution provider in the quantitative trading and cryptocurrency market-making landscape."
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6058,
+                                            lineNumber: 6067,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29081,12 +29088,12 @@ const Element = ()=>{
                                                 children: "Liquidity provider"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 6069,
+                                                lineNumber: 6078,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6068,
+                                            lineNumber: 6077,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29096,12 +29103,12 @@ const Element = ()=>{
                                                 children: "Comprehensive Financial Services"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 6073,
+                                                lineNumber: 6082,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6072,
+                                            lineNumber: 6081,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29111,18 +29118,18 @@ const Element = ()=>{
                                                 children: "Technical Expertise and Optimization"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 6079,
+                                                lineNumber: 6088,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6078,
+                                            lineNumber: 6087,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 6038,
+                                    lineNumber: 6047,
                                     columnNumber: 15
                                 }, undefined),
                                 (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -29154,14 +29161,14 @@ const Element = ()=>{
                                                                         className: `${screenWidth >= 768 && screenWidth < 992 && "class-5"} ${screenWidth >= 992 && screenWidth < 1366 && "class-6"}`
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6174,
+                                                                        lineNumber: 6183,
                                                                         columnNumber: 29
                                                                     }, undefined),
                                                                     screenWidth >= 1366 && screenWidth < 1920 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoToriiiWhite33.LogoToriiiWhite33), {
                                                                         className: "logo-toriii-white-3-3"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6180,
+                                                                        lineNumber: 6189,
                                                                         columnNumber: 29
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoToriiiWhite.LogoToriiiWhite), {
@@ -29169,18 +29176,18 @@ const Element = ()=>{
                                                                         logoToriiiWhite: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/logo-toriii-white-6-1.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/logo-toriii-white-6-2.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/logo-toriii-white-6-3.svg" : undefined
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6183,
+                                                                        lineNumber: 6192,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 6159,
+                                                                lineNumber: 6168,
                                                                 columnNumber: 25
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6130,
+                                                            lineNumber: 6139,
                                                             columnNumber: 23
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29195,7 +29202,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/frame-39921.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/frame-39921-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39921-2.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6198,
+                                                            lineNumber: 6207,
                                                             columnNumber: 23
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29209,7 +29216,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-39-5@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-39-7@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-39-9@2x.png" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6246,
+                                                            lineNumber: 6255,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     ]
@@ -29226,7 +29233,7 @@ const Element = ()=>{
                                                                         className: "logo-toriii-white-3-4"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6292,
+                                                                        lineNumber: 6301,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoToriiiWhite.LogoToriiiWhite), {
@@ -29234,18 +29241,18 @@ const Element = ()=>{
                                                                         logoToriiiWhite: "https://c.animaapp.com/hycCuBbS/img/logo-toriii-white-6-4.svg"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6293,
+                                                                        lineNumber: 6302,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 6291,
+                                                                lineNumber: 6300,
                                                                 columnNumber: 25
                                                             }, undefined)
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6290,
+                                                            lineNumber: 6299,
                                                             columnNumber: 23
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29254,7 +29261,7 @@ const Element = ()=>{
                                                             src: "https://c.animaapp.com/hycCuBbS/img/frame-39921-3.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6300,
+                                                            lineNumber: 6309,
                                                             columnNumber: 23
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29263,19 +29270,19 @@ const Element = ()=>{
                                                             src: "https://c.animaapp.com/hycCuBbS/img/group-39-11@2x.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6306,
+                                                            lineNumber: 6315,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 6289,
+                                                    lineNumber: 6298,
                                                     columnNumber: 21
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6091,
+                                            lineNumber: 6100,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29311,7 +29318,7 @@ const Element = ()=>{
                                                                     children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6401,
+                                                                    lineNumber: 6410,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29327,7 +29334,7 @@ const Element = ()=>{
                                                                     children: "We provide a wide array of financial services tailored to the cryptocurrency ecosystem. In the exchange space, we enhance liquidity while limiting volatility through high-frequency and quantitative trading strategies. Our asset management division employs a multi-strategy approach to deliver consistent and uncorrelated returns from the market."
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6464,
+                                                                    lineNumber: 6473,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29343,7 +29350,7 @@ const Element = ()=>{
                                                                     children: "Our technical prowess extends beyond trading to provide valuable support and optimization services. We specialize in enhancing trading systems, improving execution speed, and building stable, robust trading infrastructure. Combined with our trading acumen, positions us as a comprehensive solution provider in the quantitative trading and cryptocurrency market-making landscape."
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6526,
+                                                                    lineNumber: 6535,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29361,12 +29368,12 @@ const Element = ()=>{
                                                                         children: "Liquidity provider"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6610,
+                                                                        lineNumber: 6619,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6589,
+                                                                    lineNumber: 6598,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29385,12 +29392,12 @@ const Element = ()=>{
                                                                         children: "Comprehensive Financial Services"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6664,
+                                                                        lineNumber: 6673,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6635,
+                                                                    lineNumber: 6644,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29409,18 +29416,18 @@ const Element = ()=>{
                                                                         children: "Technical Expertise and Optimization"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6718,
+                                                                        lineNumber: 6727,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6689,
+                                                                    lineNumber: 6698,
                                                                     columnNumber: 25
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6364,
+                                                            lineNumber: 6373,
                                                             columnNumber: 23
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29433,7 +29440,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-63@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-63-1.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-63-2.png" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6744,
+                                                            lineNumber: 6753,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     ]
@@ -29449,7 +29456,7 @@ const Element = ()=>{
                                                                     children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6781,
+                                                                    lineNumber: 6790,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29457,7 +29464,7 @@ const Element = ()=>{
                                                                     children: "We provide a wide array of financial services tailored to the cryptocurrency ecosystem. In the exchange space, we enhance liquidity while limiting volatility through high-frequency and quantitative trading strategies. Our asset management division employs a multi-strategy approach to deliver consistent and uncorrelated returns from the market."
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6792,
+                                                                    lineNumber: 6801,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29465,7 +29472,7 @@ const Element = ()=>{
                                                                     children: "Our technical prowess extends beyond trading to provide valuable support and optimization services. We specialize in enhancing trading systems, improving execution speed, and building stable, robust trading infrastructure. Combined with our trading acumen, positions us as a comprehensive solution provider in the quantitative trading and cryptocurrency market-making landscape."
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6802,
+                                                                    lineNumber: 6811,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29475,12 +29482,12 @@ const Element = ()=>{
                                                                         children: "Liquidity provider"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6814,
+                                                                        lineNumber: 6823,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6813,
+                                                                    lineNumber: 6822,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29490,12 +29497,12 @@ const Element = ()=>{
                                                                         children: "Comprehensive Financial Services"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6820,
+                                                                        lineNumber: 6829,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6819,
+                                                                    lineNumber: 6828,
                                                                     columnNumber: 25
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29505,18 +29512,18 @@ const Element = ()=>{
                                                                         children: "Technical Expertise and Optimization"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 6826,
+                                                                        lineNumber: 6835,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 6825,
+                                                                    lineNumber: 6834,
                                                                     columnNumber: 25
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6780,
+                                                            lineNumber: 6789,
                                                             columnNumber: 23
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29525,19 +29532,19 @@ const Element = ()=>{
                                                             src: "https://c.animaapp.com/hycCuBbS/img/group-63-3.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 6832,
+                                                            lineNumber: 6841,
                                                             columnNumber: 23
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 6779,
+                                                    lineNumber: 6788,
                                                     columnNumber: 21
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6315,
+                                            lineNumber: 6324,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
@@ -29545,12 +29552,12 @@ const Element = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Element/Element.jsx",
-                            lineNumber: 5773,
+                            lineNumber: 5782,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/Element/Element.jsx",
-                        lineNumber: 5701,
+                        lineNumber: 5710,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29607,14 +29614,14 @@ const Element = ()=>{
                                                                         className: "logo-binance-white"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7082,
+                                                                        lineNumber: 7091,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite5.LogoGateioWhite5), {
                                                                         className: "logo-gateio-white"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7083,
+                                                                        lineNumber: 7092,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
@@ -29625,14 +29632,14 @@ const Element = ()=>{
                                                                         className: "logo-binance-white-6"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7089,
+                                                                        lineNumber: 7098,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite6.LogoGateioWhite6), {
                                                                         className: "logo-gateio-white-6"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7090,
+                                                                        lineNumber: 7099,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
@@ -29643,14 +29650,14 @@ const Element = ()=>{
                                                                         className: "logo-binance-white-7"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7096,
+                                                                        lineNumber: 7105,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite7.LogoGateioWhite7), {
                                                                         className: "logo-gateio-white-7"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7097,
+                                                                        lineNumber: 7106,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
@@ -29661,14 +29668,14 @@ const Element = ()=>{
                                                                         className: "logo-binance-white-8"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7103,
+                                                                        lineNumber: 7112,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite8.LogoGateioWhite8), {
                                                                         className: "logo-gateio-white-8"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7104,
+                                                                        lineNumber: 7113,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
@@ -29676,7 +29683,7 @@ const Element = ()=>{
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 7055,
+                                                        lineNumber: 7064,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29697,41 +29704,41 @@ const Element = ()=>{
                                                                 src: screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white-7.svg" : screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white-4.svg" : undefined
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7144,
+                                                                lineNumber: 7153,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             screenWidth >= 768 && screenWidth < 992 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitmexWhite3.LogoBitmexWhite3), {
                                                                 className: "logo-bitmex-white"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7183,
+                                                                lineNumber: 7192,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             screenWidth >= 992 && screenWidth < 1366 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitmexWhite6.LogoBitmexWhite6), {
                                                                 className: "logo-bitmex-white-6"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7187,
+                                                                lineNumber: 7196,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             screenWidth >= 1366 && screenWidth < 1920 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitmexWhite7.LogoBitmexWhite7), {
                                                                 className: "logo-bitmex-white-7"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7191,
+                                                                lineNumber: 7200,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             screenWidth >= 1920 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitmexWhite8.LogoBitmexWhite8), {
                                                                 className: "logo-bitmex-white-8"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7195,
+                                                                lineNumber: 7204,
                                                                 columnNumber: 25
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 7109,
+                                                        lineNumber: 7118,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29746,28 +29753,28 @@ const Element = ()=>{
                                                                 className: "logo-ace-white"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7235,
+                                                                lineNumber: 7244,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             screenWidth >= 992 && screenWidth < 1366 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoAceWhite6.LogoAceWhite6), {
                                                                 className: "logo-ace-white-6"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7239,
+                                                                lineNumber: 7248,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             (screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoWooxWhite1.LogoWooxWhite1), {
                                                                 className: `${screenWidth >= 768 && screenWidth < 992 && "class-10"} ${screenWidth >= 992 && screenWidth < 1366 && "class-11"}`
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7244,
+                                                                lineNumber: 7253,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             screenWidth >= 992 && screenWidth < 1366 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitoproWhite3.LogoBitoproWhite3), {
                                                                 className: "logo-bitopro-white"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7250,
+                                                                lineNumber: 7259,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -29776,14 +29783,14 @@ const Element = ()=>{
                                                                         className: `${screenWidth >= 1366 && screenWidth < 1920 && "class-12"} ${screenWidth >= 1920 && "class-13"}`
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7256,
+                                                                        lineNumber: 7265,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoWooxWhite7.LogoWooxWhite7), {
                                                                         className: `${screenWidth >= 1920 && "class-14"} ${screenWidth >= 1366 && screenWidth < 1920 && "class-15"}`
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 7259,
+                                                                        lineNumber: 7268,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
@@ -29792,31 +29799,31 @@ const Element = ()=>{
                                                                 className: `${screenWidth >= 768 && screenWidth < 992 && "class-16"} ${screenWidth >= 1366 && screenWidth < 1920 && "class-17"}`
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7267,
+                                                                lineNumber: 7276,
                                                                 columnNumber: 25
                                                             }, undefined),
                                                             screenWidth >= 1920 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitoproWhite8.LogoBitoproWhite8), {
                                                                 className: "logo-bitopro-white-8"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7273,
+                                                                lineNumber: 7282,
                                                                 columnNumber: 25
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 7199,
+                                                        lineNumber: 7208,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 7030,
+                                                lineNumber: 7039,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 6985,
+                                            lineNumber: 6994,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29829,13 +29836,13 @@ const Element = ()=>{
                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-51-4@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-51-5@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-51-6.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-51-7.png" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 7279,
+                                            lineNumber: 7288,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 6940,
+                                    lineNumber: 6949,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29850,7 +29857,7 @@ const Element = ()=>{
                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912-7.svg" : screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/frame-39912-3.svg" : undefined
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 7319,
+                                    lineNumber: 7328,
                                     columnNumber: 13
                                 }, undefined),
                                 (screenWidth >= 1366 && screenWidth < 1920 || screenWidth >= 1920 || screenWidth >= 768 && screenWidth < 992 || screenWidth >= 992 && screenWidth < 1366) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -29888,7 +29895,7 @@ const Element = ()=>{
                                                                 src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/rl-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/rl-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/rl-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/rl-7.svg" : undefined
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7501,
+                                                                lineNumber: 7510,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29902,7 +29909,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7559,
+                                                                lineNumber: 7568,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29916,7 +29923,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7613,
+                                                                lineNumber: 7622,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29930,7 +29937,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7667,
+                                                                lineNumber: 7676,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29944,7 +29951,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7721,
+                                                                lineNumber: 7730,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29958,13 +29965,13 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 7775,
+                                                                lineNumber: 7784,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 7466,
+                                                        lineNumber: 7475,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29978,18 +29985,18 @@ const Element = ()=>{
                                                         src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/vector-18@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/vector-21@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-24@2x.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-27@2x.png" : undefined
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 7830,
+                                                        lineNumber: 7839,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 7451,
+                                                lineNumber: 7460,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 7416,
+                                            lineNumber: 7425,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30019,12 +30026,12 @@ const Element = ()=>{
                                                         children: "TORIII TECHNOLOGY CORP."
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 7970,
+                                                        lineNumber: 7979,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 7925,
+                                                    lineNumber: 7934,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30040,7 +30047,7 @@ const Element = ()=>{
                                                     children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 8009,
+                                                    lineNumber: 8018,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30054,13 +30061,13 @@ const Element = ()=>{
                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/path7214-4.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/path7214-5.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/path7214-6.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/path7214-7.svg" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 8083,
+                                                    lineNumber: 8092,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 7880,
+                                            lineNumber: 7889,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30084,7 +30091,7 @@ const Element = ()=>{
                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/liquidity-providing.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/liquidity-providing-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/liquidity-providing-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/liquidity-providing-3.svg" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 8173,
+                                                    lineNumber: 8182,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30113,7 +30120,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/vector-13-1.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/vector-13-2.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-13-3.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-13-4.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 8289,
+                                                                    lineNumber: 8298,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30126,7 +30133,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/group-57@2x.png" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/group-57-1@2x.png" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-57-2@2x.png" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/group-57-3@2x.png" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 8337,
+                                                                    lineNumber: 8346,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30141,7 +30148,7 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/vector-19.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/vector-22.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-25.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-28.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 8375,
+                                                                    lineNumber: 8384,
                                                                     columnNumber: 23
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30156,13 +30163,13 @@ const Element = ()=>{
                                                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/vector-10-1.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/vector-10-2.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-10-3.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/vector-10-4.svg" : undefined
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/Element/Element.jsx",
-                                                                    lineNumber: 8433,
+                                                                    lineNumber: 8442,
                                                                     columnNumber: 23
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8264,
+                                                            lineNumber: 8273,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30177,7 +30184,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/frame-39913.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/frame-39913-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39913-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/frame-39913-3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8492,
+                                                            lineNumber: 8501,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30191,13 +30198,13 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/----1.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/----1-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/----1-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/----1-3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8550,
+                                                            lineNumber: 8559,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 8229,
+                                                    lineNumber: 8238,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30217,7 +30224,7 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-46.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-46-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-46-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-46-3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8622,
+                                                            lineNumber: 8631,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30230,7 +30237,7 @@ const Element = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8660,
+                                                            lineNumber: 8669,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30243,7 +30250,7 @@ const Element = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8706,
+                                                            lineNumber: 8715,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30256,7 +30263,7 @@ const Element = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8752,
+                                                            lineNumber: 8761,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30269,7 +30276,7 @@ const Element = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8798,
+                                                            lineNumber: 8807,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30282,7 +30289,7 @@ const Element = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8844,
+                                                            lineNumber: 8853,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30295,7 +30302,7 @@ const Element = ()=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8890,
+                                                            lineNumber: 8899,
                                                             columnNumber: 21
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30308,19 +30315,19 @@ const Element = ()=>{
                                                             src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-53.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-53-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-53-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/rectangle-53-3.svg" : undefined
                                                         }, void 0, false, {
                                                             fileName: "src/screens/Element/Element.jsx",
-                                                            lineNumber: 8936,
+                                                            lineNumber: 8945,
                                                             columnNumber: 21
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 8599,
+                                                    lineNumber: 8608,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 8130,
+                                            lineNumber: 8139,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
@@ -30354,7 +30361,7 @@ const Element = ()=>{
                                                         src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/polygon-2-1.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/polygon-2-3.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/polygon-2-5.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/polygon-2-7.svg" : undefined
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 9053,
+                                                        lineNumber: 9062,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30369,18 +30376,18 @@ const Element = ()=>{
                                                         src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/--1.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/--3.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/--5.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/--7.svg" : undefined
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 9109,
+                                                        lineNumber: 9118,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 9028,
+                                                lineNumber: 9037,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 8983,
+                                            lineNumber: 8992,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30416,7 +30423,7 @@ const Element = ()=>{
                                                                 src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/rl.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/rl-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/rl-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/rl-3.svg" : undefined
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 9253,
+                                                                lineNumber: 9262,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30430,7 +30437,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 9308,
+                                                                lineNumber: 9317,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30444,7 +30451,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 9360,
+                                                                lineNumber: 9369,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30458,7 +30465,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 9412,
+                                                                lineNumber: 9421,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30472,7 +30479,7 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 9464,
+                                                                lineNumber: 9473,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30486,13 +30493,13 @@ const Element = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 9516,
+                                                                lineNumber: 9525,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 9218,
+                                                        lineNumber: 9227,
                                                         columnNumber: 21
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30506,18 +30513,18 @@ const Element = ()=>{
                                                         src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/vector-3@2x.png" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/vector-7@2x.png" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/vector-11@2x.png" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/vector-16@2x.png" : undefined
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 9569,
+                                                        lineNumber: 9578,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/Element/Element.jsx",
-                                                lineNumber: 9203,
+                                                lineNumber: 9212,
                                                 columnNumber: 19
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 9169,
+                                            lineNumber: 9178,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30546,12 +30553,12 @@ const Element = ()=>{
                                                         children: "TORIII TECHNOLOGY CORP."
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 9699,
+                                                        lineNumber: 9708,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 9654,
+                                                    lineNumber: 9663,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -30568,7 +30575,7 @@ const Element = ()=>{
                                                     children: "Our firm excels in sophisticated trading approaches, leveraging cutting-edge technology and quantitative methods. We offer market-making services with a custom trading engine capable of millisecond reactions, ensuring optimal liquidity provision. Our statistical arbitrage models employ complex mathematical algorithms to identify and exploit co-integrating relationships between assets."
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 9738,
+                                                    lineNumber: 9747,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30583,13 +30590,13 @@ const Element = ()=>{
                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/path7214.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/path7214-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/path7214-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/path7214-3.svg" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 9819,
+                                                    lineNumber: 9828,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 9619,
+                                            lineNumber: 9628,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30604,7 +30611,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/frame-39923.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/frame-39923-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/frame-39923-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/frame-39923-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 9877,
+                                            lineNumber: 9886,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30644,14 +30651,14 @@ const Element = ()=>{
                                                                                 className: "logo-binance-white-1"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10077,
+                                                                                lineNumber: 10086,
                                                                                 columnNumber: 29
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite1.LogoGateioWhite1), {
                                                                                 className: "logo-gateio-white-1"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10078,
+                                                                                lineNumber: 10087,
                                                                                 columnNumber: 29
                                                                             }, undefined)
                                                                         ]
@@ -30662,14 +30669,14 @@ const Element = ()=>{
                                                                                 className: "logo-binance-white-5"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10084,
+                                                                                lineNumber: 10093,
                                                                                 columnNumber: 29
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite2.LogoGateioWhite2), {
                                                                                 className: "logo-gateio-white-2"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10085,
+                                                                                lineNumber: 10094,
                                                                                 columnNumber: 29
                                                                             }, undefined)
                                                                         ]
@@ -30680,14 +30687,14 @@ const Element = ()=>{
                                                                                 className: "logo-binance-white-3"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10091,
+                                                                                lineNumber: 10100,
                                                                                 columnNumber: 29
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite3.LogoGateioWhite3), {
                                                                                 className: "logo-gateio-white-3"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10092,
+                                                                                lineNumber: 10101,
                                                                                 columnNumber: 29
                                                                             }, undefined)
                                                                         ]
@@ -30698,14 +30705,14 @@ const Element = ()=>{
                                                                                 className: "logo-binance-white-4"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10098,
+                                                                                lineNumber: 10107,
                                                                                 columnNumber: 29
                                                                             }, undefined),
                                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoGateioWhite4.LogoGateioWhite4), {
                                                                                 className: "logo-gateio-white-4"
                                                                             }, void 0, false, {
                                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                                lineNumber: 10099,
+                                                                                lineNumber: 10108,
                                                                                 columnNumber: 29
                                                                             }, undefined)
                                                                         ]
@@ -30713,7 +30720,7 @@ const Element = ()=>{
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 10050,
+                                                                lineNumber: 10059,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30734,34 +30741,34 @@ const Element = ()=>{
                                                                         src: screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white-3.svg" : screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/logo-max-white-1.svg" : undefined
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10139,
+                                                                        lineNumber: 10148,
                                                                         columnNumber: 25
                                                                     }, undefined),
                                                                     (screenWidth >= 375 && screenWidth < 414 || screenWidth < 375) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitmexWhite1.LogoBitmexWhite1), {
                                                                         className: `${screenWidth < 375 && "class-18"} ${screenWidth >= 375 && screenWidth < 414 && "class-19"}`
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10179,
+                                                                        lineNumber: 10188,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 414 && screenWidth < 500 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitmexWhite3.LogoBitmexWhite3), {
                                                                         className: "logo-bitmex-white-3"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10185,
+                                                                        lineNumber: 10194,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 500 && screenWidth < 768 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitmexWhite4.LogoBitmexWhite4), {
                                                                         className: "logo-bitmex-white-4"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10189,
+                                                                        lineNumber: 10198,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 10104,
+                                                                lineNumber: 10113,
                                                                 columnNumber: 23
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30776,87 +30783,87 @@ const Element = ()=>{
                                                                         className: "logo-ace-white-1"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10228,
+                                                                        lineNumber: 10237,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 375 && screenWidth < 414 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoAceWhite2.LogoAceWhite2), {
                                                                         className: "logo-ace-white-2"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10232,
+                                                                        lineNumber: 10241,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     (screenWidth >= 375 && screenWidth < 414 || screenWidth < 375) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoWooxWhite1.LogoWooxWhite1), {
                                                                         className: `${screenWidth < 375 && "class-20"} ${screenWidth >= 375 && screenWidth < 414 && "class-21"}`
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10237,
+                                                                        lineNumber: 10246,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 375 && screenWidth < 414 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitoproWhite2.LogoBitoproWhite2), {
                                                                         className: "logo-bitopro-white-2"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10243,
+                                                                        lineNumber: 10252,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 414 && screenWidth < 500 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoAceWhite3.LogoAceWhite3), {
                                                                         className: "logo-ace-white-3"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10247,
+                                                                        lineNumber: 10256,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 500 && screenWidth < 768 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoAceWhite6.LogoAceWhite6), {
                                                                         className: "logo-ace-white-4"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10251,
+                                                                        lineNumber: 10260,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     (screenWidth >= 414 && screenWidth < 500 || screenWidth >= 500 && screenWidth < 768) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoWooxWhite7.LogoWooxWhite7), {
                                                                         className: `${screenWidth >= 500 && screenWidth < 768 && "class-22"} ${screenWidth >= 414 && screenWidth < 500 && "class-23"}`
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10256,
+                                                                        lineNumber: 10265,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 500 && screenWidth < 768 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitoproWhite4.LogoBitoproWhite4), {
                                                                         className: "logo-bitopro-white-4"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10262,
+                                                                        lineNumber: 10271,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth < 375 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitoproWhite1.LogoBitoproWhite1), {
                                                                         className: "logo-bitopro-white-1"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10266,
+                                                                        lineNumber: 10275,
                                                                         columnNumber: 27
                                                                     }, undefined),
                                                                     screenWidth >= 414 && screenWidth < 500 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoBitoproWhite3.LogoBitoproWhite3), {
                                                                         className: "logo-bitopro-white-3"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
-                                                                        lineNumber: 10270,
+                                                                        lineNumber: 10279,
                                                                         columnNumber: 27
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/Element/Element.jsx",
-                                                                lineNumber: 10193,
+                                                                lineNumber: 10202,
                                                                 columnNumber: 23
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/Element/Element.jsx",
-                                                        lineNumber: 10025,
+                                                        lineNumber: 10034,
                                                         columnNumber: 21
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 9980,
+                                                    lineNumber: 9989,
                                                     columnNumber: 19
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -30869,13 +30876,13 @@ const Element = ()=>{
                                                     src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/group-51@2x.png" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/group-51-1@2x.png" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/group-51-2@2x.png" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/group-51-3@2x.png" : undefined
                                                 }, void 0, false, {
                                                     fileName: "src/screens/Element/Element.jsx",
-                                                    lineNumber: 10276,
+                                                    lineNumber: 10285,
                                                     columnNumber: 19
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 9935,
+                                            lineNumber: 9944,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
@@ -30883,25 +30890,25 @@ const Element = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/Element/Element.jsx",
-                            lineNumber: 6895,
+                            lineNumber: 6904,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/Element/Element.jsx",
-                        lineNumber: 6845,
+                        lineNumber: 6854,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/Element/Element.jsx",
-                lineNumber: 317,
+                lineNumber: 322,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "footer-placeholder"
             }, void 0, false, {
                 fileName: "src/screens/Element/Element.jsx",
-                lineNumber: 10319,
+                lineNumber: 10328,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -30934,12 +30941,12 @@ const Element = ()=>{
                                         children: "\xa9 2024 Toriii Technology Corp."
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 10397,
+                                        lineNumber: 10406,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10388,
+                                    lineNumber: 10397,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30959,7 +30966,7 @@ const Element = ()=>{
                                             src: screenWidth < 375 ? "https://c.animaapp.com/hycCuBbS/img/email-icon.svg" : screenWidth >= 375 && screenWidth < 414 ? "https://c.animaapp.com/hycCuBbS/img/email-icon-1.svg" : screenWidth >= 414 && screenWidth < 500 ? "https://c.animaapp.com/hycCuBbS/img/email-icon-2.svg" : screenWidth >= 500 && screenWidth < 768 ? "https://c.animaapp.com/hycCuBbS/img/email-icon-3.svg" : undefined
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 10441,
+                                            lineNumber: 10450,
                                             columnNumber: 17
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30971,13 +30978,13 @@ const Element = ()=>{
                                             children: "contact@toriii.tech"
                                         }, void 0, false, {
                                             fileName: "src/screens/Element/Element.jsx",
-                                            lineNumber: 10477,
+                                            lineNumber: 10486,
                                             columnNumber: 17
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10424,
+                                    lineNumber: 10433,
                                     columnNumber: 15
                                 }, undefined)
                             ]
@@ -30995,12 +31002,12 @@ const Element = ()=>{
                                         children: "\xa9 2024 Toriii Technology Corp."
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 10512,
+                                        lineNumber: 10521,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10511,
+                                    lineNumber: 10520,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -31013,7 +31020,7 @@ const Element = ()=>{
                                     src: screenWidth >= 768 && screenWidth < 992 ? "https://c.animaapp.com/hycCuBbS/img/stroke-design.svg" : screenWidth >= 992 && screenWidth < 1366 ? "https://c.animaapp.com/hycCuBbS/img/stroke-design-1.svg" : screenWidth >= 1366 && screenWidth < 1920 ? "https://c.animaapp.com/hycCuBbS/img/stroke-design-2.svg" : screenWidth >= 1920 ? "https://c.animaapp.com/hycCuBbS/img/stroke-design-3.svg" : undefined
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10537,
+                                    lineNumber: 10546,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31027,12 +31034,12 @@ const Element = ()=>{
                                         children: "Email: contact@toriii.tech"
                                     }, void 0, false, {
                                         fileName: "src/screens/Element/Element.jsx",
-                                        lineNumber: 10575,
+                                        lineNumber: 10584,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/screens/Element/Element.jsx",
-                                    lineNumber: 10574,
+                                    lineNumber: 10583,
                                     columnNumber: 15
                                 }, undefined)
                             ]
@@ -31040,18 +31047,18 @@ const Element = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/Element/Element.jsx",
-                    lineNumber: 10332,
+                    lineNumber: 10341,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/screens/Element/Element.jsx",
-                lineNumber: 10320,
+                lineNumber: 10329,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/screens/Element/Element.jsx",
-        lineNumber: 71,
+        lineNumber: 76,
         columnNumber: 5
     }, undefined);
 };
