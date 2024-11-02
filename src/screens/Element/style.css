@@ -169,14 +169,17 @@
   top: 0;
 }
 
-.element .line {
-  height: 1px;
+.element .line-1 {
   position: absolute;
+  width: 2px;
+  /* transform: rotate(90deg); */
+  z-index: 1;
 }
 
 .element .line-2 {
   position: absolute;
-  width: 1px;
+  width: 2px;
+  z-index: 0;
 }
 
 .element .frame-3 {

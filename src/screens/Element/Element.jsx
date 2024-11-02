@@ -59,6 +59,11 @@ export const Element = () => {
     }
     setLastScrollY(currentScrollY);
   };
+  const centerPosition = {
+    left: "50%", // 设置为中心位置
+    top: "50%",  // 设置为中心位置
+    transform: "translate(-50%, -50%)", // 使元素居中
+  };
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -1222,30 +1227,13 @@ export const Element = () => {
                       }
                     />
 
+
+
                     <img
-                      className="line"
+                      className="line-1"
                       style={{
-                        left:
-                          screenWidth >= 768 && screenWidth < 992
-                            ? "11px"
-                            : screenWidth >= 992 && screenWidth < 1366
-                              ? "15px"
-                              : screenWidth >= 1366 && screenWidth < 1920
-                                ? "20px"
-                                : screenWidth >= 1920
-                                  ? "22px"
-                                  : undefined,
-                        top:
-                          screenWidth >= 768 && screenWidth < 992
-                            ? "69px"
-                            : screenWidth >= 992 && screenWidth < 1366
-                              ? "91px"
-                              : screenWidth >= 1366 && screenWidth < 1920
-                                ? "126px"
-                                : screenWidth >= 1920
-                                  ? "137px"
-                                  : undefined,
-                        width:
+                        ...centerPosition,
+                        height:
                           screenWidth >= 768 && screenWidth < 992
                             ? "108px"
                             : screenWidth >= 992 && screenWidth < 1366
@@ -1255,17 +1243,38 @@ export const Element = () => {
                                 : screenWidth >= 1920
                                   ? "216px"
                                   : undefined,
+                        transform: "rotate(90deg)",
+                        left:
+                          screenWidth >= 768 && screenWidth < 992
+                            ? "63px"
+                            : screenWidth >= 992 && screenWidth < 1366
+                              ? "84px"
+                              : screenWidth >= 1366 && screenWidth < 1920
+                                ? "116px"
+                                : screenWidth >= 1920
+                                  ? "126px"
+                                  : undefined,
+                        top:
+                          screenWidth >= 768 && screenWidth < 992
+                            ? "11px"
+                            : screenWidth >= 992 && screenWidth < 1366
+                              ? "15px"
+                              : screenWidth >= 1366 && screenWidth < 1920
+                                ? "20px"
+                                : screenWidth >= 1920
+                                  ? "22px"
+                                  : undefined,
                       }}
                       alt="Line"
                       src={
                         screenWidth >= 768 && screenWidth < 992
-                          ? "/img/line-2-3.svg"
+                          ? "https://c.animaapp.com/hycCuBbS/img/line-3.svg"
                           : screenWidth >= 992 && screenWidth < 1366
-                            ? "/img/line-2-2.svg"
+                            ? "https://c.animaapp.com/hycCuBbS/img/line-3-1.svg"
                             : screenWidth >= 1366 && screenWidth < 1920
-                              ? "/img/image.svg"
+                              ? "https://c.animaapp.com/hycCuBbS/img/line-3-2.svg"
                               : screenWidth >= 1920
-                                ? "/img/line-2.svg"
+                                ? "https://c.animaapp.com/hycCuBbS/img/line-3-3.svg"
                                 : undefined
                       }
                     />
