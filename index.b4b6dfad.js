@@ -28919,7 +28919,7 @@ const Element = ()=>{
                                 display: screenWidth >= 375 && screenWidth < 414 || screenWidth >= 414 && screenWidth < 500 || screenWidth < 375 ? "flex" : undefined,
                                 flexDirection: screenWidth >= 375 && screenWidth < 414 || screenWidth >= 414 && screenWidth < 500 || screenWidth < 375 ? "column" : undefined,
                                 gap: screenWidth < 375 ? "16px" : screenWidth >= 375 && screenWidth < 414 ? "18px" : screenWidth >= 414 && screenWidth < 500 ? "35px" : undefined,
-                                height: screenWidth >= 500 && screenWidth < 768 ? "448px" : screenWidth >= 768 && screenWidth < 992 ? "505px" : screenWidth >= 992 && screenWidth < 1366 ? "671px" : screenWidth >= 1366 && screenWidth < 1920 ? "926px" : screenWidth >= 1920 ? "1008px" : undefined,
+                                height: screenWidth >= 500 && screenWidth < 768 ? "480px" : screenWidth >= 768 && screenWidth < 992 ? "505px" : screenWidth >= 992 && screenWidth < 1366 ? "671px" : screenWidth >= 1366 && screenWidth < 1920 ? "926px" : screenWidth >= 1920 ? "1008px" : undefined,
                                 justifyContent: screenWidth >= 375 && screenWidth < 414 || screenWidth < 375 ? "center" : undefined,
                                 width: screenWidth < 375 ? "252.03px" : screenWidth >= 375 && screenWidth < 414 ? "290.72px" : screenWidth >= 414 && screenWidth < 500 ? "320.62px" : screenWidth >= 500 && screenWidth < 768 ? "393px" : screenWidth >= 768 && screenWidth < 992 ? "672px" : screenWidth >= 992 && screenWidth < 1366 ? "893px" : screenWidth >= 1366 && screenWidth < 1920 ? "1233px" : screenWidth >= 1920 ? "1342px" : undefined
                             },
@@ -28944,7 +28944,7 @@ const Element = ()=>{
                                                             fontSize: screenWidth < 375 ? "16px" : screenWidth >= 375 && screenWidth < 414 ? "16.1px" : screenWidth >= 414 && screenWidth < 500 ? "17.7px" : undefined,
                                                             letterSpacing: screenWidth >= 375 && screenWidth < 414 || screenWidth < 375 ? "0.08px" : screenWidth >= 414 && screenWidth < 500 ? "0.09px" : undefined
                                                         },
-                                                        children: "Liquidity provider"
+                                                        children: "Liquidity Providing"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/Element/Element.jsx",
                                                         lineNumber: 5884,
@@ -29085,7 +29085,7 @@ const Element = ()=>{
                                             className: "frame-20",
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "text-wrapper-15",
-                                                children: "Liquidity provider"
+                                                children: "Liquidity Providing"
                                             }, void 0, false, {
                                                 fileName: "src/screens/Element/Element.jsx",
                                                 lineNumber: 6078,
@@ -29308,10 +29308,10 @@ const Element = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                                     className: "text-wrapper-16",
                                                                     style: {
-                                                                        fontSize: screenWidth >= 768 && screenWidth < 992 ? "10px" : screenWidth >= 992 && screenWidth < 1366 ? "13.3px" : screenWidth >= 1366 && screenWidth < 1920 ? "18.4px" : undefined,
+                                                                        fontSize: screenWidth >= 768 && screenWidth < 992 ? "12px" : screenWidth >= 992 && screenWidth < 1366 ? "16px" : screenWidth >= 1366 && screenWidth < 1920 ? "20px" : undefined,
                                                                         height: screenWidth >= 768 && screenWidth < 992 ? "75px" : screenWidth >= 992 && screenWidth < 1366 ? "100px" : screenWidth >= 1366 && screenWidth < 1920 ? "140px" : undefined,
                                                                         letterSpacing: screenWidth >= 768 && screenWidth < 992 ? "0.05px" : screenWidth >= 992 && screenWidth < 1366 ? "0.07px" : screenWidth >= 1366 && screenWidth < 1920 ? "0.09px" : undefined,
-                                                                        lineHeight: screenWidth >= 768 && screenWidth < 992 ? "15.0px" : screenWidth >= 992 && screenWidth < 1366 ? "20.0px" : screenWidth >= 1366 && screenWidth < 1920 ? "27.6px" : undefined,
+                                                                        lineHeight: screenWidth >= 768 && screenWidth < 992 ? "16.0px" : screenWidth >= 992 && screenWidth < 1366 ? "22.0px" : screenWidth >= 1366 && screenWidth < 1920 ? "30.0px" : undefined,
                                                                         top: screenWidth >= 768 && screenWidth < 992 ? "26px" : screenWidth >= 992 && screenWidth < 1366 ? "34px" : screenWidth >= 1366 && screenWidth < 1920 ? "47px" : undefined,
                                                                         width: screenWidth >= 768 && screenWidth < 992 ? "326px" : screenWidth >= 992 && screenWidth < 1366 ? "433px" : screenWidth >= 1366 && screenWidth < 1920 ? "598px" : undefined
                                                                     },
@@ -29324,10 +29324,10 @@ const Element = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                                     className: "text-wrapper-17",
                                                                     style: {
-                                                                        fontSize: screenWidth >= 768 && screenWidth < 992 ? "10px" : screenWidth >= 992 && screenWidth < 1366 ? "13.3px" : screenWidth >= 1366 && screenWidth < 1920 ? "18.4px" : undefined,
+                                                                        fontSize: screenWidth >= 768 && screenWidth < 992 ? "12px" : screenWidth >= 992 && screenWidth < 1366 ? "16px" : screenWidth >= 1366 && screenWidth < 1920 ? "20px" : undefined,
                                                                         height: screenWidth >= 768 && screenWidth < 992 ? "75px" : screenWidth >= 992 && screenWidth < 1366 ? "100px" : screenWidth >= 1366 && screenWidth < 1920 ? "140px" : undefined,
                                                                         letterSpacing: screenWidth >= 768 && screenWidth < 992 ? "0.05px" : screenWidth >= 992 && screenWidth < 1366 ? "0.07px" : screenWidth >= 1366 && screenWidth < 1920 ? "0.09px" : undefined,
-                                                                        lineHeight: screenWidth >= 768 && screenWidth < 992 ? "15.0px" : screenWidth >= 992 && screenWidth < 1366 ? "20.0px" : screenWidth >= 1366 && screenWidth < 1920 ? "27.6px" : undefined,
+                                                                        lineHeight: screenWidth >= 768 && screenWidth < 992 ? "16.0px" : screenWidth >= 992 && screenWidth < 1366 ? "22.0px" : screenWidth >= 1366 && screenWidth < 1920 ? "30.0px" : undefined,
                                                                         top: screenWidth >= 768 && screenWidth < 992 ? "162px" : screenWidth >= 992 && screenWidth < 1366 ? "216px" : screenWidth >= 1366 && screenWidth < 1920 ? "298px" : undefined,
                                                                         width: screenWidth >= 768 && screenWidth < 992 ? "326px" : screenWidth >= 992 && screenWidth < 1366 ? "433px" : screenWidth >= 1366 && screenWidth < 1920 ? "598px" : undefined
                                                                     },
@@ -29340,10 +29340,10 @@ const Element = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                                     className: "text-wrapper-18",
                                                                     style: {
-                                                                        fontSize: screenWidth >= 768 && screenWidth < 992 ? "10px" : screenWidth >= 992 && screenWidth < 1366 ? "13.3px" : screenWidth >= 1366 && screenWidth < 1920 ? "18.4px" : undefined,
+                                                                        fontSize: screenWidth >= 768 && screenWidth < 992 ? "12px" : screenWidth >= 992 && screenWidth < 1366 ? "16px" : screenWidth >= 1366 && screenWidth < 1920 ? "20px" : undefined,
                                                                         height: screenWidth >= 768 && screenWidth < 992 ? "75px" : screenWidth >= 992 && screenWidth < 1366 ? "100px" : screenWidth >= 1366 && screenWidth < 1920 ? "140px" : undefined,
                                                                         letterSpacing: screenWidth >= 768 && screenWidth < 992 ? "0.05px" : screenWidth >= 992 && screenWidth < 1366 ? "0.07px" : screenWidth >= 1366 && screenWidth < 1920 ? "0.09px" : undefined,
-                                                                        lineHeight: screenWidth >= 768 && screenWidth < 992 ? "15.0px" : screenWidth >= 992 && screenWidth < 1366 ? "20.0px" : screenWidth >= 1366 && screenWidth < 1920 ? "27.6px" : undefined,
+                                                                        lineHeight: screenWidth >= 768 && screenWidth < 992 ? "16.0px" : screenWidth >= 992 && screenWidth < 1366 ? "22.0px" : screenWidth >= 1366 && screenWidth < 1920 ? "30.0px" : undefined,
                                                                         top: screenWidth >= 768 && screenWidth < 992 ? "299px" : screenWidth >= 992 && screenWidth < 1366 ? "397px" : screenWidth >= 1366 && screenWidth < 1920 ? "548px" : undefined,
                                                                         width: screenWidth >= 768 && screenWidth < 992 ? "326px" : screenWidth >= 992 && screenWidth < 1366 ? "433px" : screenWidth >= 1366 && screenWidth < 1920 ? "598px" : undefined
                                                                     },
@@ -29365,7 +29365,7 @@ const Element = ()=>{
                                                                             fontSize: screenWidth >= 768 && screenWidth < 992 ? "18px" : screenWidth >= 992 && screenWidth < 1366 ? "24px" : screenWidth >= 1366 && screenWidth < 1920 ? "33.1px" : undefined,
                                                                             letterSpacing: screenWidth >= 768 && screenWidth < 992 ? "0.09px" : screenWidth >= 992 && screenWidth < 1366 ? "0.12px" : screenWidth >= 1366 && screenWidth < 1920 ? "0.17px" : undefined
                                                                         },
-                                                                        children: "Liquidity provider"
+                                                                        children: "Liquidity Providing"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
                                                                         lineNumber: 6619,
@@ -29433,7 +29433,7 @@ const Element = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "group-15",
                                                             style: {
-                                                                height: screenWidth >= 768 && screenWidth < 992 ? "421px" : screenWidth >= 992 && screenWidth < 1366 ? "560px" : screenWidth >= 1366 && screenWidth < 1920 ? "773px" : undefined,
+                                                                height: screenWidth >= 768 && screenWidth < 992 ? "440px" : screenWidth >= 992 && screenWidth < 1366 ? "590px" : screenWidth >= 1366 && screenWidth < 1920 ? "800px" : undefined,
                                                                 width: screenWidth >= 768 && screenWidth < 992 ? "371px" : screenWidth >= 992 && screenWidth < 1366 ? "492px" : screenWidth >= 1366 && screenWidth < 1920 ? "680px" : undefined
                                                             },
                                                             alt: "Group",
@@ -29479,7 +29479,7 @@ const Element = ()=>{
                                                                     className: "frame-30",
                                                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                         className: "text-wrapper-25",
-                                                                        children: "Liquidity provider"
+                                                                        children: "Liquidity Providing"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/Element/Element.jsx",
                                                                         lineNumber: 6823,
