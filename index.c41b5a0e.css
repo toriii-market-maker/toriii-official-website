@@ -1352,13 +1352,7 @@ a {
   position: relative;
 }
 
-.element .ellipse-41, .element .ellipse-42 {
-  background-color: #000;
-  border-color: #fff;
-  position: relative;
-}
-
-.element .ellipse-43, .element .ellipse-44, .element .ellipse-45, .element .ellipse-46 {
+.element .ellipse-41, .element .ellipse-42, .element .ellipse-43, .element .ellipse-44, .element .ellipse-45, .element .ellipse-46 {
   background-color: #fff;
   border-color: #fff;
   position: relative;
